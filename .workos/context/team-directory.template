@@ -1,0 +1,60 @@
+# Team Directory
+
+Document your team members, their roles, and communication preferences.
+
+---
+
+## Your Immediate Team
+
+### [Team Member Name]
+- **Role:** [Title]
+- **Focus:** [What they work on]
+- **Communication:** [Preferred method, response time expectations]
+- **Working Style:** [Key things to know when collaborating]
+
+### [Add more team members]
+
+---
+
+## Cross-Functional Partners
+
+### Engineering
+
+**[Name] - [Role]:**
+- Focus: [Technical area]
+- When to involve: [Types of decisions]
+
+**[Add more engineers]**
+
+### Product
+
+**[Name] - [Role]:**
+- Focus: [Product area]
+- When to involve: [Types of decisions]
+
+### Design
+
+**[Name] - [Role]:**
+- Focus: [Design area]
+- When to involve: [Types of decisions]
+
+---
+
+## Key Stakeholders
+
+See `stakeholders.md` for detailed stakeholder information.
+
+---
+
+## Team Communication Norms
+
+- Standups: [When, format, expectations]
+- 1:1s: [Frequency with manager, direct reports]
+- Team meetings: [When, purpose]
+- Office hours: [If applicable]
+
+---
+
+## Notes
+
+[Any additional team context]

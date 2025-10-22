@@ -1,0 +1,107 @@
+# Company Information
+
+Fill in details about your company to help WorkOS agents understand your work context.
+
+---
+
+## Company Basics
+
+**Company Name:** [Your company]
+**Industry:** [e.g., SaaS, E-commerce, FinTech]
+**Size:** [e.g., 50-100 employees, 500+, startup]
+**Stage:** [e.g., Seed, Series A, Public]
+
+---
+
+## Your Role
+
+**Title:** [Your job title]
+**Department:** [Your department]
+**Team:** [Your immediate team]
+**Manager:** [Your manager's name]
+**Direct Reports:** [If applicable]
+
+---
+
+## Company Structure
+
+**Leadership Team:**
+- CEO: [Name]
+- CTO: [Name]
+- CPO: [Name]
+- [Other relevant executives]
+
+**Engineering Organization:**
+- VP Engineering: [Name]
+- [Team structure overview]
+
+**Product Organization:**
+- VP Product: [Name]
+- [Team structure overview]
+
+---
+
+## Company Culture
+
+**Values:**
+1. [Core value 1]
+2. [Core value 2]
+3. [Core value 3]
+
+**Communication Style:**
+- [e.g., Direct and transparent, Consensus-driven, Top-down]
+- [Meeting culture: Slack-first, lots of meetings, async-first]
+- [Documentation: Notion, Confluence, Google Docs]
+
+**Decision-Making Process:**
+- [How are technical decisions made?]
+- [Who needs to be involved in product decisions?]
+- [Escalation path for blockers]
+
+---
+
+## Processes
+
+**Development Process:**
+- Methodology: [Agile, Scrum, Kanban, Shape Up]
+- Sprint length: [1 week, 2 weeks, etc.]
+- Key ceremonies: [Standups, retros, planning, demos]
+
+**Release Process:**
+- Deployment frequency: [Continuous, weekly, bi-weekly]
+- Release process: [CI/CD, manual, feature flags]
+- QA process: [Automated, manual, peer review]
+
+**Planning Process:**
+- Planning cycle: [Quarterly, bi-annual, annual]
+- OKR/KPI framework: [How goals are set]
+- Roadmap process: [How product roadmap is built]
+
+---
+
+## Tools & Platforms
+
+**Communication:**
+- Chat: [Slack, Teams, Discord]
+- Email: [Gmail, Outlook]
+- Video: [Zoom, Google Meet, Teams]
+
+**Project Management:**
+- Task tracking: [Jira, Linear, Asana]
+- Docs: [Notion, Confluence, Google Docs]
+- Roadmap: [ProductBoard, Aha!, internal tool]
+
+**Development:**
+- Code: [GitHub, GitLab, Bitbucket]
+- CI/CD: [GitHub Actions, CircleCI, Jenkins]
+- Monitoring: [Datadog, New Relic, Sentry]
+
+**Design:**
+- Design tool: [Figma, Sketch, Adobe XD]
+- Design system: [Yes/No, link if yes]
+
+---
+
+## Notes
+
+[Any additional context about your company that agents should know]

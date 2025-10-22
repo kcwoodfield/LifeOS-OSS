@@ -1,0 +1,88 @@
+# Company Tech Stack
+
+Document the technologies your company uses.
+
+---
+
+## Frontend
+
+**Framework:** [React, Vue, Angular, etc.]
+**Language:** [TypeScript, JavaScript]
+**State Management:** [Redux, Context, Zustand, etc.]
+**Styling:** [CSS Modules, Styled Components, Tailwind, etc.]
+**Key Libraries:** [List important dependencies]
+
+---
+
+## Backend
+
+**Language:** [Node.js, Python, Ruby, Java, Go, etc.]
+**Framework:** [Express, Django, Rails, Spring, etc.]
+**API Style:** [REST, GraphQL, gRPC]
+**Authentication:** [JWT, OAuth, Auth0, etc.]
+
+---
+
+## Database
+
+**Primary Database:** [PostgreSQL, MySQL, MongoDB, etc.]
+**Caching:** [Redis, Memcached]
+**Search:** [Elasticsearch, Algolia]
+**Data Warehouse:** [Snowflake, BigQuery, Redshift]
+
+---
+
+## Infrastructure
+
+**Cloud Provider:** [AWS, GCP, Azure]
+**Container Orchestration:** [Kubernetes, ECS, etc.]
+**CI/CD:** [GitHub Actions, CircleCI, Jenkins]
+**Monitoring:** [Datadog, New Relic, Sentry]
+**Logging:** [Splunk, ELK stack, CloudWatch]
+
+---
+
+## Third-Party Services
+
+**Analytics:** [Segment, Amplitude, Mixpanel]
+**Email:** [SendGrid, Mailgun]
+**Payments:** [Stripe, PayPal]
+**[Other important services]**
+
+---
+
+## Development Tools
+
+**Version Control:** [GitHub, GitLab, Bitbucket]
+**IDE:** [VSCode, IntelliJ, etc.]
+**Linting/Formatting:** [ESLint, Prettier, etc.]
+**Testing:** [Jest, Cypress, Selenium, etc.]
+
+---
+
+## Architecture Patterns
+
+**Frontend:**
+- [Component architecture approach]
+- [Code organization]
+- [Build/bundle setup]
+
+**Backend:**
+- [Service architecture: Monolith, Microservices, etc.]
+- [API design patterns]
+- [Data access patterns]
+
+---
+
+## Technical Constraints
+
+- [Performance requirements]
+- [Security requirements]
+- [Compliance requirements: GDPR, HIPAA, etc.]
+- [Browser/device support]
+
+---
+
+## Notes
+
+[Any additional tech stack context or recent migrations]

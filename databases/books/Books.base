@@ -1,0 +1,29 @@
+views:
+  - type: table
+    name: All Books
+    fields:
+      - name: title
+        width: 300
+      - name: author
+        width: 200
+      - name: status
+        width: 120
+      - name: genre
+        width: 150
+      - name: year
+        width: 80
+      - name: pages
+        width: 80
+      - name: rating
+        width: 80
+      - name: started_date
+        width: 120
+      - name: finished_date
+        width: 120
+      - name: tags
+        width: 250
+    sortBy:
+      - field: title
+        order: asc
+  - type: table
+    name: View

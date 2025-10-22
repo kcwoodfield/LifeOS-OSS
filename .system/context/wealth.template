@@ -1,0 +1,262 @@
+# Wealth Strategy & Financial Context
+
+Fill in your financial situation and wealth strategy to help the Banker agent provide tailored financial guidance.
+
+---
+
+## Current Financial Snapshot
+
+**Income:**
+- Base salary: $[Amount] per year
+- Bonus/equity: $[Amount] per year (expected)
+- Side income: $[Amount] per year
+- Total annual income: $[Amount]
+
+**Net Worth:**
+- Total assets: $[Amount]
+- Total liabilities: $[Amount]
+- **Net worth:** $[Amount]
+- Last updated: [YYYY-MM-DD]
+
+**Monthly Cash Flow:**
+- Monthly income (after tax): $[Amount]
+- Monthly expenses: $[Amount]
+- Monthly savings: $[Amount]
+- Savings rate: [XX]%
+
+---
+
+## Assets
+
+**Cash & Equivalents:**
+- Emergency fund: $[Amount] ([X] months of expenses)
+- Checking account: $[Amount]
+- High-yield savings: $[Amount]
+
+**Investments:**
+- 401(k)/IRA: $[Amount]
+- Taxable brokerage: $[Amount]
+- Crypto: $[Amount]
+- Other investments: $[Amount]
+
+**Real Estate:**
+- Primary residence: $[Market value] (Mortgage: $[Amount])
+- Investment property 1: $[Market value] (Mortgage: $[Amount])
+- [Additional properties]
+
+**Business/Side Projects:**
+- [Business 1]: $[Estimated value]
+- [Business 2]: $[Estimated value]
+
+---
+
+## Liabilities
+
+**Debt:**
+- Mortgage (primary): $[Amount] at [X]% ([Years] remaining)
+- Mortgage (investment): $[Amount] at [X]% ([Years] remaining)
+- Student loans: $[Amount] at [X]%
+- Car loan: $[Amount] at [X]%
+- Credit card debt: $[Amount] at [X]%
+- **Total debt:** $[Amount]
+
+**Monthly Debt Payments:**
+- Total: $[Amount]
+
+---
+
+## Investment Strategy
+
+**Asset Allocation:**
+- Stocks: [XX]%
+- Bonds: [XX]%
+- Real estate: [XX]%
+- Cash: [XX]%
+- Crypto: [XX]%
+- Other: [XX]%
+
+**Investment Philosophy:**
+- [e.g., Index fund investing, Value investing, Growth focus]
+- Risk tolerance: [Conservative, Moderate, Aggressive]
+- Time horizon: [Years until retirement or financial independence]
+
+**Portfolio Holdings:**
+- Index funds: [List main holdings]
+- Individual stocks: [If applicable]
+- Bonds: [If applicable]
+
+**Tax-Advantaged Accounts:**
+- 401(k) contribution: $[Amount/year] ([XX]% of income)
+- IRA contribution: $[Amount/year]
+- HSA contribution: $[Amount/year]
+
+---
+
+## Expenses & Budget
+
+**Fixed Monthly Expenses:**
+- Housing (mortgage/rent): $[Amount]
+- Utilities: $[Amount]
+- Insurance (health, auto, home): $[Amount]
+- Car payment: $[Amount]
+- Subscriptions: $[Amount]
+- **Total fixed:** $[Amount]
+
+**Variable Monthly Expenses:**
+- Groceries: $[Amount]
+- Dining out: $[Amount]
+- Transportation (gas, etc.): $[Amount]
+- Entertainment: $[Amount]
+- Shopping: $[Amount]
+- **Total variable:** $[Amount]
+
+**Discretionary Spending:**
+- Travel: $[Amount/year]
+- Hobbies: $[Amount/year]
+- Gifts: $[Amount/year]
+
+**Annual Expenses:**
+- Taxes (property, etc.): $[Amount]
+- Insurance (annual): $[Amount]
+- Other: $[Amount]
+
+---
+
+## Financial Goals
+
+**Short-Term (1-2 Years):**
+- [Goal 1 - e.g., Build $30K emergency fund]
+- [Goal 2 - e.g., Pay off credit card debt]
+- [Goal 3 - e.g., Save $20K for investment property down payment]
+
+**Medium-Term (3-5 Years):**
+- [Goal 1 - e.g., Purchase investment property]
+- [Goal 2 - e.g., Increase net worth to $500K]
+- [Goal 3 - e.g., Generate $2K/month passive income]
+
+**Long-Term (10+ Years):**
+- [Goal 1 - e.g., Financial independence by age XX]
+- [Goal 2 - e.g., Net worth of $XM]
+- [Goal 3 - e.g., Passive income of $XX,XXX/month]
+
+**FIRE (Financial Independence, Retire Early) Plan:**
+- Target FIRE number: $[Amount needed to retire]
+- Target FIRE age: [Age]
+- Years until FIRE: [Years]
+- Annual savings needed: $[Amount]
+
+---
+
+## Income Growth Strategy
+
+**Career Income:**
+- Current: $[Amount/year]
+- Target 3 years: $[Amount/year]
+- Target 5 years: $[Amount/year]
+- Target 10 years: $[Amount/year]
+
+**Side Income Streams:**
+- Stream 1: [Description] - Current: $[Amount/year], Target: $[Amount/year]
+- Stream 2: [Description] - Current: $[Amount/year], Target: $[Amount/year]
+- Stream 3: [Description] - Current: $[Amount/year], Target: $[Amount/year]
+
+**Passive Income Streams:**
+- Rental income: $[Amount/month]
+- Dividend income: $[Amount/year]
+- Interest income: $[Amount/year]
+- [Other passive income]
+
+---
+
+## Real Estate Strategy
+
+**Primary Residence:**
+- Purchase price: $[Amount]
+- Current value: $[Amount]
+- Remaining mortgage: $[Amount]
+- Monthly payment: $[Amount]
+- Equity: $[Amount]
+
+**Investment Properties:**
+- Property 1: [Address]
+  - Purchase price: $[Amount]
+  - Current value: $[Amount]
+  - Rental income: $[Amount/month]
+  - Mortgage: $[Amount/month]
+  - Cash flow: $[Amount/month]
+
+**Real Estate Goals:**
+- [e.g., Purchase 1 rental property per year]
+- [e.g., Generate $5K/month in rental income by 2030]
+
+---
+
+## Risk Management
+
+**Insurance Coverage:**
+- Life insurance: $[Coverage] ([Term/Whole], expires [Year])
+- Disability insurance: $[Coverage]
+- Umbrella policy: $[Coverage]
+- Health insurance: [Type, deductible]
+
+**Emergency Preparedness:**
+- Emergency fund target: [X] months of expenses
+- Current emergency fund: $[Amount]
+- Additional safety nets: [e.g., Credit line, family support]
+
+---
+
+## Tax Strategy
+
+**Tax Situation:**
+- Filing status: [Single, Married filing jointly, etc.]
+- Marginal tax bracket: [XX]%
+- Effective tax rate: [XX]%
+
+**Tax Optimization:**
+- Tax-deferred contributions: $[Amount/year]
+- Tax-loss harvesting: [Strategy]
+- Deductions: [Itemized or standard]
+
+**Tax Planning:**
+- [Strategy 1 - e.g., Max out 401(k) and IRA]
+- [Strategy 2 - e.g., Use HSA for triple tax advantage]
+- [Strategy 3 - e.g., Hold investments >1 year for long-term capital gains]
+
+---
+
+## Wealth-Building Principles
+
+**Financial Philosophy:**
+- [Your core financial beliefs]
+- [How you think about money]
+- [What wealth means to you]
+
+**Influences:**
+- Books: [e.g., "The Millionaire Next Door", "Your Money or Your Life"]
+- Podcasts/Blogs: [Resources you follow]
+- Mentors: [People who've influenced your financial thinking]
+
+**Rules I Live By:**
+1. [Rule 1 - e.g., "Always pay yourself first"]
+2. [Rule 2 - e.g., "Never carry credit card debt"]
+3. [Rule 3 - e.g., "Invest the difference when income increases"]
+
+---
+
+## Spending Philosophy
+
+**Values-Based Spending:**
+- What I spend freely on: [e.g., Quality food, education, experiences]
+- What I minimize: [e.g., Fashion, cars, gadgets]
+- Why: [Your reasoning]
+
+**Lifestyle Inflation:**
+- Strategy for managing raises: [e.g., "Save 50% of every raise"]
+- Splurge categories: [Acceptable areas for lifestyle upgrade]
+
+---
+
+## Notes
+
+[Any additional financial context, goals, or sensitive information about inheritance, windfalls, or unique circumstances]
