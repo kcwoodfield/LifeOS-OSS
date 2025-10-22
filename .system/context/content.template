@@ -1,0 +1,315 @@
+---
+context_type: "content"
+version: "1.0.0"
+updated: YYYY-MM-DD
+review_cadence: "weekly"
+key_metrics:
+  - "posts-published"
+  - "audience-growth"
+  - "writing-consistency"
+  - "engagement-quality"
+---
+
+# Content & Writing Context
+
+**Last Updated:** YYYY-MM-DD
+
+This file contains your content strategy, writing goals, and publishing plans. Referenced by **Storyteller** agent for content guidance.
+
+---
+
+## Content Vision
+
+### 10-Year Vision
+
+**Goal:** [Where do you want to be as a content creator in 10 years?]
+
+**What Success Looks Like:**
+- [Number] published posts (quality over quantity)
+- [Number] email subscribers who actually read
+- Known for [what topics/expertise]
+- Content creates [career opportunities, connections, income]
+- Writing as [thinking tool, creative outlet, business, etc.]
+
+**Why This Matters:**
+- [Your personal reasons for creating content]
+- [What drives you to write/create]
+
+---
+
+## Current State
+
+### Publishing Status
+
+**Blog:** [Not launched / Active - URL]
+**Newsletter:** [Not launched / Active - Platform]
+**Social Media:** [Minimal / Active - Platforms]
+
+**Current Activity:**
+- [What stage are you at: planning, building, publishing regularly?]
+
+### Content Infrastructure
+
+**Platform Decisions:**
+- **Blog:** [Personal site, Medium, Substack, Ghost, etc.]
+- **Newsletter:** [Substack, ConvertKit, Beehiiv, etc.]
+- **Code hosting:** GitHub (if relevant)
+- **Design tool:** Figma, Canva, etc. (if relevant)
+
+---
+
+## Content Pillars
+
+### 1. Primary Pillar
+
+**Theme:** [Main topic/expertise area]
+
+**Topics:**
+- [Topic 1]
+- [Topic 2]
+- [Topic 3]
+
+**Audience:** [Who is this for?]
+
+**Why You're Qualified:** [Your unique perspective/experience]
+
+### 2. Secondary Pillar
+
+**Theme:** [Second topic area]
+
+**Topics:**
+- [Topics you'll cover]
+
+**Audience:** [Target reader]
+
+**Why You're Qualified:** [Your credentials/experience]
+
+### 3. Tertiary Pillar (Optional)
+
+**Theme:** [Third topic area, if relevant]
+
+---
+
+## Publishing Strategy
+
+### Publishing Frequency
+
+**Year 1 (Building Phase):**
+- **Goal:** [Posts per month]
+- **Focus:** [Quality, finding voice, building foundation]
+- **Constraints:** [Time limits, other commitments]
+
+**Long-Term:**
+- **Sustainable frequency:** [Posts per month/week]
+- **Quality bar:** [Your standards for publishing]
+
+---
+
+### Content Types
+
+**Long-Form Posts ([word count] words)**
+- [Description of this content type]
+- **Frequency:** [How often]
+
+**Essays ([word count]+ words)**
+- [Description]
+- **Frequency:** [How often]
+
+**Tutorials (if applicable)**
+- [Description]
+- **Frequency:** [How often]
+
+**Short Posts/Notes**
+- [Description]
+- **Frequency:** [How often]
+
+---
+
+## Audience Strategy
+
+### Target Audience
+
+**Primary:**
+- [Demographic/profession]
+- [Experience level]
+- [Interests/needs]
+- **Size goal:** [Number of readers/subscribers]
+
+**Anti-Audience (Not For):**
+- [Who this content is NOT for]
+
+### Audience Building Tactics
+
+**Email List Growth:**
+- Subscribe CTA on every post
+- Lead magnet: [Framework, template, guide idea]
+- Guest posting on related blogs
+- Engage in communities
+
+**Social Media:**
+- **Platform 1:** [Strategy]
+- **Platform 2:** [Strategy]
+
+**Distribution:**
+- Spend [X]% time writing, [X]% distributing
+- Repurpose content across platforms
+- Engage authentically in communities
+
+---
+
+## Voice & Style
+
+### Writing Voice
+
+**Personality:** [How you want to sound]
+
+**Characteristics:**
+- [Trait 1 - e.g., Clear and direct]
+- [Trait 2 - e.g., Technical but accessible]
+- [Trait 3 - e.g., Honest about failures]
+
+**Not:**
+- [What to avoid - e.g., Overly formal, salesy, guru posturing]
+
+### Style Guidelines
+
+**Structure:**
+- Clear thesis in opening
+- Scannable (subheads, bullets, short paragraphs)
+- Concrete examples
+- Strong ending/takeaway
+
+**Tone:**
+- Conversational but polished
+- First person when appropriate
+- Active voice
+- Specific over generic
+
+---
+
+## Writing Process
+
+### Ideation
+
+**Capture System:**
+- New ideas go in `projects/ideas/` (tag as "content")
+- Weekly review: Which ideas are ready?
+
+**Sources of Ideas:**
+- Problems you're solving
+- Questions people ask you
+- Lessons from projects
+- What you wish you'd known X years ago
+
+### Drafting Process
+
+**Steps:**
+1. **Outline:** Rough structure, key points
+2. **Draft:** Write without editing
+3. **Edit:** Restructure, clarify, cut fluff
+4. **Polish:** Grammar, flow, formatting
+5. **Review:** Read aloud
+6. **Ship:** Publish and distribute
+
+**Time Budget:**
+- Short post: [Hours]
+- Medium post: [Hours]
+- Long post: [Hours]
+
+**Draft Location:** `writing/drafts/YYYY-MM-DD-title.md`
+
+---
+
+## Content Backlog
+
+### Posts to Write (Priority Order)
+
+**1. [Post Title]**
+- Status: [Idea / Outline / Draft]
+- Pillar: [Which content pillar]
+- Target date: [When to publish]
+
+**2. [Post Title]**
+- Status:
+- Pillar:
+- Target:
+
+[Add more as needed]
+
+---
+
+## Metrics & Success
+
+### Meaningful Metrics (Track These)
+
+- **Email subscribers:** [Target number]
+- **Open rates:** [Target percentage]
+- **Engagement:** Comments, replies, shares
+- **Resonance:** Which posts get shared/cited
+- **Opportunities:** Inbound connections, collaborations
+
+### Success Indicators
+
+**Year 1:**
+- [ ] [Number] posts published
+- [ ] [Number] email subscribers
+- [ ] [Number] meaningful connections from content
+
+**Year 3:**
+- [ ] [Number] email subscribers
+- [ ] Known in [community/niche]
+- [ ] Regular inbound opportunities
+
+---
+
+## Monetization Strategy (Optional)
+
+### Phase 1: Don't Monetize
+- Focus on quality and audience
+- Build trust and reputation
+
+### Phase 2: Optional Monetization
+- Paid newsletter tier
+- Digital products (frameworks, templates, courses)
+- Consulting/advisory
+- Sponsorships (only if authentic fit)
+
+**Principle:** Monetize only if it improves content quality or creates more time to create.
+
+---
+
+## Platform Decisions
+
+### Blog Platform Options
+
+**Option 1: [Platform name]**
+- **Pros:** [Benefits]
+- **Cons:** [Drawbacks]
+- **Best for:** [Type of creator]
+
+**Option 2: [Platform name]**
+- **Pros:**
+- **Cons:**
+- **Best for:**
+
+**Current Decision:** [What you're leaning toward]
+
+---
+
+## For Storyteller Agent
+
+**How to use this file:**
+- Reference content pillars when generating post ideas
+- Check content calendar for planned topics
+- Align recommendations with voice/style guidelines
+- Review backlog for which posts are ready
+- Track progress toward publishing goals
+
+**Update frequency:**
+- Weekly: Add new post ideas, update drafts
+- Monthly: Review metrics, adjust strategy
+- Quarterly: Deep review of what's working
+
+---
+
+*Update this file weekly as content is planned, drafted, and published.*

@@ -1,0 +1,24 @@
+# Voice Assistant POC Dependencies
+# Install with: pip3 install -r requirements.txt
+
+# Audio processing
+pyaudio==0.2.14
+wave==0.0.2
+
+# Wake word detection
+pvporcupine==3.0.2
+
+# Speech-to-text
+openai==1.12.0
+
+# LLM (Claude)
+anthropic==0.18.1
+
+# Text-to-speech
+elevenlabs==1.2.2
+
+# Voice activity detection
+webrtcvad==2.0.10
+
+# Environment variables
+python-dotenv==1.0.1

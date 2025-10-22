@@ -1,0 +1,75 @@
+# Key Stakeholders
+
+Document important stakeholders and how to work with them effectively.
+
+---
+
+## Executive Stakeholders
+
+### [Name] - [Title]
+**Role:** [What they oversee]
+**Priorities:** [What they care about most]
+**Communication Style:** [How they prefer updates]
+**Meeting Cadence:** [How often you interact]
+**Key Concerns:** [What keeps them up at night]
+**Best Practices:** [Tips for working with them effectively]
+
+---
+
+## Product Stakeholders
+
+### [Name] - [Title]
+**Role:** [What they oversee]
+**Priorities:** [What drives their decisions]
+**Communication Style:** [Preferred communication method]
+**Decision-Making:** [How they make decisions]
+**Best Practices:** [Tips for alignment]
+
+---
+
+## Engineering Stakeholders
+
+### [Name] - [Title]
+**Role:** [Technical area of ownership]
+**Priorities:** [Technical priorities]
+**Communication Style:** [Preferred method]
+**Best Practices:** [How to collaborate]
+
+---
+
+## Other Key Stakeholders
+
+### [Design, Marketing, Sales, Customer Success, etc.]
+
+---
+
+## Stakeholder Communication Matrix
+
+| Stakeholder | Update Frequency | Format | Level of Detail |
+|-------------|------------------|--------|-----------------|
+| [Name] | [Weekly, Monthly] | [Email, Slack, Meeting] | [High-level, Detailed] |
+| [Add rows] | | | |
+
+---
+
+## Escalation Path
+
+**For technical blockers:**
+1. [First point of contact]
+2. [Second level escalation]
+3. [Final escalation]
+
+**For product decisions:**
+1. [First point of contact]
+2. [Second level escalation]
+3. [Final escalation]
+
+**For timeline/resource issues:**
+1. [First point of contact]
+2. [Second level escalation]
+
+---
+
+## Notes
+
+[Any additional stakeholder management context or political dynamics to be aware of]

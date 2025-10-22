@@ -1,0 +1,371 @@
+---
+context_type: "health"
+version: "1.0.0"
+updated: YYYY-MM-DD
+review_cadence: "monthly"
+key_metrics:
+  - "sleep-hours"
+  - "energy-baseline"
+  - "health-markers"
+  - "stress-level"
+---
+
+# Health & Wellness Context
+
+**Last Updated:** YYYY-MM-DD
+
+This file contains your health baseline, wellness protocols, and optimization goals. Referenced by **Healer** agent for health guidance.
+
+---
+
+## Health Vision
+
+### 40-Year Health Goal
+
+**Vision:** [What does thriving health look like for you at age 80?]
+
+**What Success Looks Like:**
+- Robust health span (not just lifespan)
+- Capable of [physical activities you want to do]
+- Sharp cognitive function
+- No chronic diseases or preventable conditions
+- High quality of life in later years
+
+**Why This Matters:**
+- Health is the foundation for everything else
+- [Your personal health motivations]
+
+---
+
+## Current Health Baseline
+
+### Overall Health Status
+
+**Age:** [Your age]
+**Overall Assessment:** [Good / Fair / Needs Work]
+**Last Physical:** [Date]
+**Next Physical:** [Date]
+
+**Current State:**
+- Energy levels: [Generally high / medium / low]
+- Sleep quality: [Good / Fair / Poor]
+- Stress levels: [Manageable / Elevated / High]
+- Physical fitness: [Good / Fair / Needs improvement]
+
+---
+
+## Sleep Profile
+
+### Current Sleep Pattern
+
+**Average Sleep:** [X] hours/night
+**Sleep Quality:** [Good / Fair / Poor]
+**Sleep Consistency:** [Consistent schedule? Yes / No]
+
+**Typical Schedule:**
+- Bedtime: [Time]
+- Wake time: [Time]
+- Total time in bed: [Hours]
+
+**Sleep Issues (if any):**
+- Trouble falling asleep: [Yes / No]
+- Wake during night: [Frequency]
+- Wake feeling rested: [Yes / No]
+
+### Sleep Optimization Protocol
+
+**Current Practices:**
+- [ ] Consistent sleep schedule
+- [ ] 7-8 hours sleep opportunity
+- [ ] Cool bedroom (65-68°F)
+- [ ] Dark room (blackout curtains)
+- [ ] No caffeine after 2pm
+- [ ] Wind-down routine
+- [ ] Morning sunlight exposure
+
+**What's Working:**
+- [Sleep practices that help]
+
+**What Needs Work:**
+- [Sleep issues to address]
+
+---
+
+## Nutrition Framework
+
+### Current Eating Pattern
+
+**Diet Style:** [e.g., Whole foods, Mediterranean, etc.]
+**Meal Frequency:** [X] meals per day
+**Eating Window:** [If doing time-restricted eating]
+
+**Macronutrient Targets (if tracked):**
+- Protein: [X]g per day (aim: 0.8-1g per lb bodyweight)
+- Carbs: [Moderate / Low / High]
+- Fats: [Adequate healthy fats]
+
+### Food Quality & Preferences
+
+**Foods I Eat Regularly:**
+- Protein sources: [Chicken, fish, eggs, etc.]
+- Vegetables: [What you eat]
+- Carbs: [Rice, potatoes, oats, etc.]
+- Fats: [Nuts, olive oil, avocado, etc.]
+
+**Foods I Avoid:**
+- [Allergies or intolerances]
+- [Foods that don't make you feel good]
+
+**Hydration:**
+- Water intake: [X] liters/day (aim: ~3L)
+- Coffee: [X] cups/day
+- Alcohol: [Frequency and amount]
+
+### Nutrition Goals
+
+**What's Working:**
+- [Nutrition practices that feel good]
+
+**What Needs Work:**
+- Protein intake: [Adequate? Too low?]
+- Vegetable consumption: [Enough variety?]
+- Consistency: [Weekday vs. weekend eating]
+
+---
+
+## Stress & Recovery
+
+### Stress Assessment
+
+**Current Stress Level:** [1-10 scale]
+
+**Major Stressors:**
+- Work: [Stress level, what's causing it]
+- Life: [Major life events, changes]
+- Financial: [Money stress?]
+- Relationships: [Relationship stress?]
+
+**Stress Symptoms:**
+- Physical: [Tension, headaches, etc.]
+- Mental: [Anxiety, overwhelm, etc.]
+- Sleep: [Stress affecting sleep?]
+
+### Recovery Practices
+
+**Current Recovery Strategies:**
+- [ ] Adequate sleep (7-8 hours)
+- [ ] Regular exercise
+- [ ] Time in nature
+- [ ] Social connection
+- [ ] Meditation/breathwork
+- [ ] Downtime (unstructured rest)
+- [ ] Hobbies
+
+**What's Working:**
+- [Recovery practices that help]
+
+**What's Missing:**
+- [Recovery strategies to add]
+
+### Stress Management Tools
+
+**Acute Stress (In the Moment):**
+- Physiological sigh (2 inhales, 1 long exhale)
+- Box breathing (4-4-4-4)
+- 10-min walk outside
+- [Other techniques]
+
+**Chronic Stress Management:**
+- Daily meditation: [Yes / No - duration]
+- Breathwork practice: [Frequency]
+- Exercise: [Type, frequency]
+- [Other practices]
+
+---
+
+## Physical Fitness & Movement
+
+### Current Fitness Level
+
+**Overall Fitness:** [Good / Fair / Needs improvement]
+
+**Fitness Activities:**
+- Primary: [e.g., Gym, running, cycling, etc.]
+- Frequency: [X] times per week
+- Duration: [Typical session length]
+
+**Fitness Tracked By:** **Spartan** agent (see Spartan for detailed fitness protocols)
+
+**Health-Relevant Metrics:**
+- Resting heart rate: [BPM]
+- Blood pressure: [Systolic/Diastolic]
+
+### Movement Throughout Day
+
+**Daily Movement:**
+- Steps: [Average daily steps]
+- Sedentary time: [Hours sitting per day]
+- Active breaks: [Frequency]
+
+**Mobility & Flexibility:**
+- Morning stretching: [Yes / No]
+- Mobility work: [Frequency]
+- Pain or stiffness: [Any chronic issues?]
+
+---
+
+## Health Metrics & Biomarkers
+
+### Recent Bloodwork (If Available)
+
+**Last Labs:** [Date]
+
+**Key Markers:**
+- Fasting glucose: [Value - optimal: <100 mg/dL]
+- HbA1c: [Value - optimal: <5.7%]
+- Total cholesterol: [Value]
+- LDL: [Value]
+- HDL: [Value]
+- Triglycerides: [Value - optimal: <150 mg/dL]
+- Vitamin D: [Value - optimal: 40-60 ng/mL]
+
+**Markers to Watch:**
+- [Any values out of optimal range]
+
+**Next Labs:** [When to retest]
+
+### Body Composition (If Tracked)
+
+**Current:**
+- Weight: [lbs/kg]
+- Body fat %: [If measured]
+
+**Goal (if applicable):**
+- [Target weight or composition]
+
+---
+
+## Current Health Protocols
+
+### Daily Health Stack
+
+**Morning:**
+- [ ] Sunlight exposure (10-30 min within 30 min of waking)
+- [ ] Hydration (water upon waking)
+- [ ] [Supplements if any]
+
+**Throughout Day:**
+- [ ] Adequate protein at each meal
+- [ ] Movement breaks
+- [ ] Hydration (aim for [X]L)
+
+**Evening:**
+- [ ] Dim lights 2-3 hours before bed
+- [ ] Wind-down routine
+- [ ] Prepare for 7-8 hour sleep opportunity
+
+### Supplements (If Any)
+
+**Current Supplements:**
+- **Vitamin D:** [Dose] - [Frequency] - [Why]
+- **Magnesium:** [Dose] - [Frequency] - [Why]
+- **Omega-3:** [Dose] - [Frequency] - [Why]
+- **Other:** [List]
+
+**Supplement Philosophy:**
+- Evidence-based only
+- Fill deficiencies, don't chase optimization
+- Third-party tested
+- Quality brands
+
+---
+
+## Health Goals & Optimization
+
+### Short-Term Goals (6-12 Months)
+
+**Sleep:**
+- [ ] Consistent 7-8 hours per night
+- [ ] [Specific sleep goal]
+
+**Energy:**
+- [ ] Sustained energy throughout day
+- [ ] [Specific energy goal]
+
+**Nutrition:**
+- [ ] Adequate protein daily ([X]g minimum)
+- [ ] [Specific nutrition goal]
+
+**Stress:**
+- [ ] Manageable stress levels (≤6/10)
+- [ ] [Specific stress management practice]
+
+### Long-Term Health Goals (5-10 Years)
+
+**Metabolic Health:**
+- Maintain optimal glucose regulation
+- Prevent insulin resistance/diabetes
+- Healthy body composition
+
+**Cardiovascular Health:**
+- Strong heart and cardiovascular system
+- Optimal blood pressure
+- Healthy lipid profile
+
+**Musculoskeletal Health:**
+- Maintain muscle mass
+- Bone density
+- Joint health and mobility
+
+**Cognitive Health:**
+- Sharp mental clarity
+- Memory preservation
+
+**Longevity:**
+- Can do at 80: [Activities you want to be capable of]
+
+---
+
+## Health Challenges & Concerns
+
+### Current Health Issues
+
+**Active Issues:**
+- [Any current health problems]
+- [Injuries or pain]
+
+**Being Monitored:**
+- [Health markers being watched]
+- [Family history concerns]
+
+### Injury History & Prevention
+
+**Past Injuries:**
+- [Relevant injury history]
+
+**Current Pain/Discomfort:**
+- [Any ongoing issues]
+
+**Prevention Strategies:**
+- [Mobility work, warm-ups, etc.]
+
+---
+
+## For Healer Agent
+
+**How to use this file:**
+- Reference sleep baseline when advising on sleep optimization
+- Check current protocols when suggesting interventions
+- Review biomarkers when assessing health status
+- Align recommendations with long-term health goals
+- Consider current stressors when advising on recovery
+
+**Update frequency:**
+- Weekly: Sleep quality, energy levels, stress assessment
+- Monthly: Overall health check, protocol adjustments
+- Quarterly: Fitness metrics, body composition (if tracked)
+- Annually: Bloodwork, comprehensive health review
+
+---
+
+*Update this file monthly to track health optimization and ensure longevity protocols are working.*

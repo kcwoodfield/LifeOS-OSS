@@ -1,0 +1,97 @@
+# LifeOS-OSS .gitignore (oss-template branch only)
+# Protects personal data, keeps infrastructure and examples
+
+# Context Files
+.system/context/*.md
+!.system/context/*.template
+.workos/context/*.md
+!.workos/context/*.template
+.personal/
+
+# Reflections
+reflections/daily/*.md
+!reflections/daily/example-*.md
+reflections/weekly/*.md
+!reflections/weekly/example-*.md
+reflections/monthly/*.md
+!reflections/monthly/example-*.md
+
+# Databases (keep schemas and examples only)
+databases/tasks/*.md
+!databases/tasks/example-*.md
+!databases/tasks/_schema.md
+!databases/tasks/README.md
+
+databases/journal/*.md
+!databases/journal/example-*.md
+!databases/journal/_schema.md
+!databases/journal/README.md
+
+databases/expenses/*.md
+!databases/expenses/example-*.md
+!databases/expenses/_schema.md
+!databases/expenses/README.md
+
+databases/books/*.md
+!databases/books/example-*.md
+!databases/books/_schema.md
+!databases/books/README.md
+
+databases/meetings/*.md
+!databases/meetings/example-*.md
+!databases/meetings/_schema.md
+!databases/meetings/README.md
+
+databases/cabinet/*.md
+!databases/cabinet/example-*.md
+!databases/cabinet/_schema.md
+!databases/cabinet/README.md
+
+databases/time-tracking/*.md
+!databases/time-tracking/example-*.md
+!databases/time-tracking/_schema.md
+!databases/time-tracking/README.md
+
+# Projects
+projects/prds/*.md
+!projects/prds/example-*.md
+!projects/prds/_prd_template.md
+projects/ideas/*.md
+!projects/ideas/example-*.md
+projects/*-kanban.md
+
+# Writing
+writing/drafts/*.md
+!writing/drafts/example-*.md
+writing/published/*.md
+!writing/published/example-*.md
+writing/essays/*.md
+!writing/essays/example-*.md
+
+# Communications (all private)
+communications/**/*.md
+
+# Decisions
+decisions/*.md
+!decisions/example-*.md
+
+# Meetings
+meetings/**/*.md
+!meetings/prep/example-*.md
+
+# Assets
+assets/images/*.jpg
+assets/images/*.jpeg
+assets/images/*.png
+!assets/images/example-*.jpg
+!assets/images/example-*.png
+
+# System
+.DS_Store
+.obsidian/workspace*
+.trash/
+
+# Secrets
+.env*
+secrets.md
+credentials.md

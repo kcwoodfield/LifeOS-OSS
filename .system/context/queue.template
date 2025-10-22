@@ -1,0 +1,109 @@
+---
+context_type: queue
+version: 1.0
+updated: YYYY-MM-DD
+review_cadence: weekly
+---
+
+# Development Queue
+
+**Last Updated:** YYYY-MM-DD
+
+This file tracks features, improvements, and ideas for your LifeOS system. Think of this as your system's product backlog.
+
+---
+
+## Queued Features
+
+### [Feature Name 1]
+
+**Description:**
+- [What is this feature?]
+- [Why do you want it?]
+
+**Requirements:**
+- [What needs to be done]
+- [Dependencies or prerequisites]
+
+**Estimated Effort:** [Small / Medium / Large]
+**Priority:** [High / Medium / Low]
+
+### [Feature Name 2]
+
+**Description:**
+- [What and why]
+
+**Requirements:**
+- [What's needed]
+
+**Status:** [Queued / In Progress / Blocked]
+
+---
+
+## Open Questions
+
+**Vision Clarity:**
+- What problem are we actually solving?
+- Is this a productivity system, AI research project, or personal OS?
+- Are we building features or solving workflows?
+
+**System Maturity:**
+- Have we validated current features work for daily workflow?
+- Should we pause new features and use what exists first?
+- What's the criteria for "done" vs. "good enough"?
+
+**Priority Questions:**
+- [Your specific open questions about the system]
+- [Decisions that need to be made]
+
+---
+
+## Recently Completed
+
+**[Date]:**
+- ✅ [Feature or improvement completed]
+- ✅ [Feature or improvement completed]
+- ✅ [Feature or improvement completed]
+
+**[Earlier Date]:**
+- ✅ [Older completed items]
+
+---
+
+## Ideas Backlog
+
+**Low Priority / Someday-Maybe:**
+- [Idea 1 - interesting but not urgent]
+- [Idea 2 - nice to have]
+- [Idea 3 - explore later]
+
+**Rejected / Won't Do:**
+- ❌ [Idea - why it was rejected]
+- ❌ [Idea - doesn't fit the vision]
+
+---
+
+## Agent Notes & Recommendations
+
+**Atlas:**
+"[Atlas's perspective on the queue - are we building too fast? Missing priorities?]"
+
+**Engineer:**
+"[Technical perspective on architecture decisions]"
+
+**Designer:**
+"[UX perspective on system usability]"
+
+---
+
+## For Your Review
+
+**Questions to Ask Yourself:**
+- Am I building features faster than I'm using them?
+- Is the queue growing because of genuine needs or just ideas?
+- What's the actual pain point I'm solving?
+- Does this feature align with the 40-year vision?
+
+---
+
+*Update this file weekly during review sessions to track system evolution.*
