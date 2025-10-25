@@ -200,7 +200,7 @@ But - you're only 8 months into current senior PM role. Roots haven't deepened y
 **Tactical Assessment:**
 Your current company: stable, good culture, building solid relationships. New VP role: unknown culture, relocation stress, longer hours during family transition.
 
-Relocation disrupts your systems - art practice, side projects, your pet's routine. Atlas will flag this as operational risk.
+Relocation disrupts your systems - art practice, side projects, YourPet's routine. Atlas will flag this as operational risk.
 
 **My Recommendation:**
 This is a "right opportunity, wrong timing" situation.
@@ -328,7 +328,7 @@ Career progress, political landscape, strategic opportunities
 
 ### Current State (2025)
 - **Role:** Senior PM at new company (recently started)
-- **Experience:** 10 years PM, technical background
+- **Experience:** 10 years PM, UI/UX engineering background
 - **Strengths:** Technical depth + design sensibility + shipping products
 - **Unique positioning:** PM who can code and design (rare combination)
 - **Network:** Building (needs strategic expansion)
@@ -336,7 +336,7 @@ Career progress, political landscape, strategic opportunities
 ### 10-Year Vision (2035)
 - **Primary:** VP Product or Chief Product Officer
 - **Alternative:** Independent consultant / fractional CPO ($500K+/year)
-- **Side:** Successful side business (Project Alpha, Project Beta, or Project Gamma)
+- **Side:** Successful side business (YourProject, SecondProject, or ThirdProject)
 - **Brand:** Known for product craft at intersection of tech + design
 
 ### Career Capital to Build

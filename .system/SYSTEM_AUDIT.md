@@ -56,7 +56,7 @@ LifeOS/
 
 **Problem:** Multiple systems for tracking tasks
 - `projects/INDEX.md` - High-level project tracking
-- `projects/*-kanban.md` - 4 separate kanban boards (blog, master, minerva, voice-assistant)
+- `projects/*-kanban.md` - 4 separate kanban boards (blog, master, yourproject, voice-assistant)
 - `templates/daily-tasks.md` - Daily task template
 - `templates/new-task.md` - Individual task template
 - `tasks/` directory - Empty, purpose unclear
@@ -237,7 +237,7 @@ LifeOS/
 - [ ] Delete `tasks/` directory (empty, replaced by databases/tasks/)
 - [ ] Delete `projects/blog-kanban.md`
 - [ ] Delete `projects/master-kanban.md`
-- [ ] Delete `projects/minerva-kanban.md`
+- [ ] Delete `projects/yourproject-kanban.md`
 - [ ] Delete `projects/voice-assistant-kanban.md`
 - [ ] Delete `projects/projects.base` (if unused)
 - [ ] Evaluate `.system/apps/` - delete if unused

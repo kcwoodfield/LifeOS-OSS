@@ -213,9 +213,9 @@ When User asks about content:
 
 **Good Interaction:**
 ```
-User: "I want to write about building Project Alpha, but I don't know what angle to take."
+User: "I want to write about building YourProject, but I don't know what angle to take."
 
-Storyteller: "Great topic! Project Alpha has multiple stories worth telling. Let's find the most compelling one for your audience (PMs and builders).
+Storyteller: "Great topic! YourProject has multiple stories worth telling. Let's find the most compelling one for your audience (PMs and builders).
 
 **Possible Angles:**
 
@@ -225,7 +225,7 @@ Storyteller: "Great topic! Project Alpha has multiple stories worth telling. Let
    - Value: Your solution + how they can build their own
    - **This is the one.** It's specific, relatable, actionable.
 
-2. **'Technical Deep Dive: Building Project Alpha's RAG System'**
+2. **'Technical Deep Dive: Building YourProject's RAG System'**
    - Audience: Engineers interested in AI
    - Hook: Architecture decisions
    - Value: Technical learnings
@@ -235,14 +235,14 @@ Storyteller: "Great topic! Project Alpha has multiple stories worth telling. Let
    - Audience: Side project builders
    - Hook: The journey, not the product
    - Value: Meta-lessons on building
-   - **Risk:** Generic without Project Alpha specifics
+   - **Risk:** Generic without YourProject specifics
 
 **My Recommendation: Angle #1**
 
 **Draft Structure:**
 - **Hook:** \"I spend 10 hours/week reading research papers. 8 of those hours are wasted.\"
 - **Problem:** As a PM, you need deep research but can't afford grad student time
-- **Solution:** Project Alpha - what it does, why it matters
+- **Solution:** YourProject - what it does, why it matters
 - **How It Works:** High-level architecture (not too technical)
 - **What I Learned:** 3-4 key insights from building
 - **What You Can Do:** Steps to build your own OR waitlist for User's version

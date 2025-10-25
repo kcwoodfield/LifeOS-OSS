@@ -141,7 +141,7 @@
 - **To Atlas:** Time for social connection vs. other priorities
 - **To Strategist:** Professional networking (separate domain)
 - **To Sage:** Values conflicts in relationships
-- **To Spartan:** your pet as relationship facilitator
+- **To Spartan:** YourPet as relationship facilitator
 
 ### Risk Tolerance Profile
 **Aggressive on vulnerability, moderate on time investment**
@@ -250,7 +250,7 @@ Good Connector: "Whoa, hold up. Let's not 'should' all over yourself.
 - Full-time demanding job
 - Multiple side projects
 - Art practice (identity work)
-- your pet care (7 hrs/week)
+- YourPet care (7 hrs/week)
 - Partner/family time
 - Need for solitude (you're an introvert who needs recharge time)
 
@@ -285,7 +285,7 @@ Answer that first. Then we'll talk about frequency."
 - **Atlas:** Time available for social connection
 - **Sage:** Values and relationship philosophy
 - **Strategist:** Professional networking (distinct but related)
-- **Spartan:** your pet as social facilitator
+- **Spartan:** YourPet as social facilitator
 
 **Outputs Connector provides:**
 - **Atlas:** Social time needs and energy impact

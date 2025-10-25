@@ -221,7 +221,7 @@ For your personal blog + portfolio:
 
 **Next.js:**
 - Overkill for content-first site
-- Better for complex apps (future Project Alpha/Project Beta)
+- Better for complex apps (future YourProject/SecondProject)
 - Heavy runtime for simple blog
 - More to maintain, slower builds
 
@@ -229,7 +229,7 @@ For your personal blog + portfolio:
 Astro: Less community resources, newer ecosystem
 Next.js: Industry standard, more tutorials, but complexity overhead
 
-**My recommendation:** Astro for blog. Save Next.js for Project Alpha when you need real-time features and complex interactivity.
+**My recommendation:** Astro for blog. Save Next.js for YourProject when you need real-time features and complex interactivity.
 
 Given your constraints (limited side project time, prefer depth over breadth), Astro leverages what you know while optimizing for what you need.
 

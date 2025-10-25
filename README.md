@@ -1,389 +1,463 @@
-# LifeOS - Personal Operating System
+# Life OS
 
-**Your AI-native life orchestration system**
-
-LifeOS is a comprehensive personal knowledge management and life orchestration system built on Obsidian + Claude Code. It combines 14 specialized AI agents, structured data management, and automated workflows to help you live intentionally across all life domains.
+**Version:** 1.0.0
+**Status:** Active
+**Last Updated:** 2025-10-19
 
 ---
 
-## What is LifeOS?
+## What This Is
 
-LifeOS provides you with an AI-powered personal operating system featuring:
+**Life OS** is a personal operating system for living intentionally. It's a complete life orchestration system built on plain-text markdown, designed for long-term partnership between human and AI.
 
-**The Cabinet:** 14 specialized AI agents across 3 divisions
-- **Strategic Council:** Atlas (COO), Banker (CFO), Strategist (CSO), Sage (Oracle), Spartan (Defense)
-- **Execution Division:** Engineer (CTO), Designer (CDO), Artist (Creative Director)
-- **Growth Division:** Maker, Storyteller, Analyst (Ada), Connector, Healer, Professor
+This is not a productivity system. This is infrastructure for building a life worth living over the next 40 years.
 
-**Structured Data Management:**
-- 7 databases (tasks, journal, books, expenses, meetings, cabinet, time-tracking)
-- Dynamic Dataview dashboards
-- Version-controlled markdown
-
-**Automated Workflows:**
-- Morning briefings
-- Cabinet meetings
-- Project health checks
-- Weekly reviews
+**Core Philosophy:**
+- Markdown as infrastructure (version controlled, future-proof)
+- AI-native design (built for human + AI collaboration)
+- Context-aware (everything connected, nothing siloed)
+- Agent-based (specialized AI personas for different domains)
+- Systems over willpower (automate decisions, compound daily)
 
 ---
 
 ## Quick Start
 
-### Prerequisites
+### For New Users
 
-1. **Obsidian** - Download from [obsidian.md](https://obsidian.md)
-2. **Claude Code** - Install from [claude.com/code](https://claude.com/code)
-3. **Git** - For version control (recommended)
+1. **Install Obsidian**: Download from [obsidian.md](https://obsidian.md)
+2. **Open this vault**: File → Open vault → Select this folder
+3. **Install required plugins**: See [Required Plugins](#required-plugins) below
+4. **Read the system guide**: Start with [`CLAUDE.md`](CLAUDE.md) for Claude Code guidance
+5. **Meet The Cabinet**: 14 active agents in [`.system/agents/`](.system/agents/)
 
-### Installation
+#### Required Plugins
 
-1. **Fork or clone this repository:**
-   ```bash
-   git clone https://github.com/kcwoodfield/LifeOS-OSS.git
-   cd LifeOS-OSS
-   ```
+**Core Plugins** (built into Obsidian):
+- **Templates** - Basic template support
+- **Daily notes** - For journal entries
+- **File recovery** - Auto-backup
 
-2. **Open in Obsidian:**
-   - Open Obsidian
-   - Click "Open folder as vault"
-   - Select the `LifeOS-OSS` directory
+**Community Plugins** (install from Obsidian):
 
-3. **Install required Obsidian plugins:**
-   - Dataview (required - for dashboards)
-   - Templater (recommended - for templates)
-   - Database Folder (optional - for database management)
+1. **Dataview** ⭐ *Essential*
+   - Enables dynamic dashboards and queries
+   - Powers all dashboard views (finances, books, projects, metrics)
+   - Install: Settings → Community plugins → Browse → Search "Dataview"
 
-   Settings → Community Plugins → Browse → Search for each plugin
+2. **Templater** ⭐ *Essential*
+   - Advanced template system with auto-population
+   - Required for all `templates/*.md` files
+   - Install: Settings → Community plugins → Browse → Search "Templater"
+   - Configuration: Set template folder to `templates/`
 
-4. **Fill in your context files:**
-   - Navigate to `.system/context/`
-   - Copy each `.template` file and remove the `.template` extension
-   - Fill in your personal information
-   - **Important:** Add these to .gitignore to keep private
+3. **Database** ⭐ *Highly Recommended*
+   - Spreadsheet-style views for databases
+   - Native table interface with sorting and filtering
+   - Install: Settings → Community plugins → Browse → Search "Database Folder"
+   - Note: Works alongside Dataview, not a replacement
 
-5. **Set up git privacy (if using version control):**
-   ```bash
-   # Add your personal context files to .gitignore
-   echo ".system/context/*.md" >> .gitignore
-   echo "!.system/context/*.template" >> .gitignore
-   ```
+4. **Calendar** (Optional but useful)
+   - Visual calendar for daily notes and reviews
+   - Makes navigation easier
 
-6. **Test agent invocation:**
-   Open Claude Code in the vault directory:
-   ```bash
-   claude-code .
-   ```
+5. **Buttons** (Optional)
+   - Quick action buttons for creating files
+   - Used on The Atlas dashboard
 
-   Try: "Atlas, what should I focus on today?"
+**Setup Steps:**
+1. Open Settings → Community plugins
+2. Turn off "Safe mode"
+3. Click "Browse" and search for each plugin
+4. Click "Install" then "Enable"
+5. For Templater: Set template folder path to `templates/`
 
----
+### For Claude Code CLI
 
-## Core Features
-
-### 1. The Cabinet (14 AI Agents)
-
-Your personal advisory team, available 24/7:
-
-**Strategic Council:**
-- **Atlas (COO)** - Life optimization, energy management, operational balance
-- **Banker (CFO)** - Wealth building, investments, financial freedom
-- **Strategist (CSO)** - Career strategy, professional positioning
-- **Sage (Oracle)** - Philosophy, values, meaning, perspective
-- **Spartan (Defense)** - Fitness, security, discipline, mental toughness
-
-**Execution Division:**
-- **Engineer (CTO)** - Technical strategy, code quality, architecture
-- **Designer (CDO)** - UI/UX design, aesthetics, design systems
-- **Artist (Creative Director)** - Fine art practice, creative learning
-
-**Growth & Optimization:**
-- **Maker** - Hardware, DIY, electronics, physical builds
-- **Storyteller** - Writing, content, thought leadership
-- **Analyst (Ada)** - Data tracking, metrics, quantified self
-- **Connector** - Relationships, networking, social health
-- **Healer** - Sleep, nutrition, longevity, wellness
-- **Professor** - Literature, deep reading, intellectual growth
-
-**Usage:**
-```
-"Atlas, am I overcommitted this week?"
-"Banker, should I invest in index funds or individual stocks?"
-"Cabinet meeting about: should I take this new job offer?"
-```
-
-### 2. Database System (Dataview-Powered)
-
-Seven structured databases for different life domains:
-
-- **tasks/** - All tasks with priority, due dates, effort tracking
-- **journal/** - Daily reflections with energy and mood tracking
-- **books/** - Reading list with Professor integration
-- **expenses/** - Monthly bills and financial tracking
-- **meetings/** - Meeting notes archive
-- **cabinet/** - Cabinet meeting archive
-- **time-tracking/** - Time logging and analysis
-
-Each database has:
-- `_schema.md` - Frontmatter template
-- `README.md` - Documentation
-- Example files to learn from
-
-### 3. Dynamic Dashboards
-
-**The Atlas** (`dashboards/home.md`) - Your command center:
-- Daily Cabinet wisdom (98 rotating quotes)
-- Top 5 priorities (auto-sorted)
-- Today's tasks and action items
-- Active projects and health status
-- Recent wins and learnings
-
-**Financial Dashboard** (`dashboards/finances.md`):
-- Bills due this week
-- Monthly burn rate
-- Income vs. expenses
-- Cash flow analysis
-
-**Books Dashboard** (`dashboards/books.md`):
-- Currently reading
-- Reading queue
-- Reading statistics
-- Professor recommendations
-
-### 4. Claude Code Skills
-
-Automated workflows triggered by natural language:
-
-- **Morning Brief** - "Generate my morning brief"
-- **Cabinet Meeting** - "Cabinet meeting about [topic]"
-- **Project Health** - "Check project health"
-- **Weekly Review** - "Weekly review"
+When working with this repository:
+1. Read [`CLAUDE.md`](CLAUDE.md) for complete system understanding
+2. Always read relevant context files before responding
+3. Invoke agents by name when specialized counsel needed
 
 ---
 
-## Daily Workflow
+## System Architecture
 
-**Morning (5-10 minutes):**
-1. Check The Atlas dashboard
-2. Review top 3 priorities
-3. Optional: Generate morning brief
-
-**During Day:**
-- Quick capture to `_inbox_.md`
-- Consult agents as needed
-- Update task statuses
-
-**Evening Review (15-20 minutes):**
-1. Process inbox → structured databases
-2. Update tasks (mark complete, note blockers)
-3. Journal entry in `databases/journal/`
-4. Prepare tomorrow's priorities
-
-**Weekly (Sunday evening, 60-90 minutes):**
-1. Weekly Cabinet meeting
-2. Review project health
-3. Plan next week priorities
-4. Financial check-in
-
----
-
-## Architecture
-
-### Directory Structure
+![System Architecture](assets/images/headers/japan.jpg)
 
 ```
 LifeOS/
-├── .system/              # LifeOS infrastructure (hidden)
-│   ├── agents/               Personal agents (14 agents)
-│   ├── context/              Personal context files
-│   ├── data/                 System data (cabinet quotes)
-│   ├── schemas/              Dataview schemas
-│   └── scripts/              Automation scripts
-│
-├── .workos/              # WorkOS infrastructure (optional)
-│   ├── agents/               Work agents (8 professional agents)
-│   ├── context/              Work context files
-│   └── skills/               Work-specific skills
-│
-├── .claude/              # Claude Code skills
-│   └── skills/               Shared automation skills
-│
-├── databases/            # Structured data
-│   ├── tasks/
-│   ├── journal/
-│   ├── books/
-│   ├── expenses/
-│   ├── meetings/
-│   ├── cabinet/
-│   └── time-tracking/
-│
-├── dashboards/           # Dataview dashboards
-├── projects/             # Projects and ideas
-├── reflections/          # Daily/weekly/monthly reviews
-├── writing/              # Blog posts and essays
-├── templates/            # Templater templates
-├── assets/               # Images and media
-└── _inbox_.md            # Quick capture entry point
+├── CLAUDE.md                  # System guide for Claude Code
+├── README.md                  # This file
+├── _inbox_.md                 # Quick capture (unstructured) - MAIN ENTRYWAY
+├── .obsidian/                 # Obsidian configuration
+├── .claude/                   # Claude Code skills
+│   └── skills/                # Auto-invoked workflows
+├── databases/                 # Structured data (Dataview)
+│   ├── tasks/                 # All tasks (single source of truth)
+│   ├── expenses/              # Monthly bills and recurring expenses
+│   ├── books/                 # Reading list tracking
+│   ├── meetings/              # Meeting notes archive
+│   ├── cabinet/               # Cabinet meeting archive
+│   └── journal/               # Daily journal entries
+├── dashboards/                # Dataview dashboards (Obsidian)
+│   ├── home.md                # The Atlas - Master command center
+│   └── finances.md            # Financial dashboard - Bills, expenses, cash flow
+├── templates/                 # Templater templates (Obsidian)
+├── reflections/               # Daily/weekly/monthly reviews (Obsidian)
+│   ├── daily/                 # Daily reviews and morning briefs
+│   ├── weekly/
+│   └── monthly/
+├── projects/                  # Active projects (Obsidian)
+│   ├── INDEX.md               # Project tracking
+│   ├── ideas/                 # Idea files with frontmatter
+│   └── prds/                  # Product requirement docs
+├── writing/                   # Blog posts and essays (Obsidian)
+│   ├── drafts/
+│   └── published/
+├── assets/                    # Images and media (Obsidian)
+│   └── agents/                # Agent avatars
+└── .system/                   # System infrastructure (hidden from Obsidian)
+    ├── agents/                # The Cabinet (14 active agents)
+    │   ├── atlas-operations.md    # COO - Tyrion personality
+    │   ├── banker.md              # CFO - Wealth strategy
+    │   ├── strategist.md          # CSO - Tywin personality
+    │   ├── sage.md                # Oracle - Philosophy
+    │   ├── spartan.md             # Defense - Fitness
+    │   ├── execution/             # Execution Division
+    │   │   ├── engineer.md
+    │   │   ├── designer.md
+    │   │   └── artist.md
+    │   └── growth/                # Growth & Optimization
+    │       ├── maker.md
+    │       ├── storyteller.md
+    │       ├── analyst.md (Ada)
+    │       ├── connector.md
+    │       ├── healer.md
+    │       └── professor.md
+    ├── context/               # Agent configuration files
+    │   ├── preferences.md
+    │   ├── career.md
+    │   ├── wealth.md
+    │   └── art.md
+    ├── scripts/               # Automation (Python, bash)
+    ├── apps/                  # Applications
+    └── schemas/               # Dataview schema documentation
 ```
 
-### Branch Strategy (for advanced users)
+---
 
-LifeOS supports a three-branch model for privacy:
+## The Cabinet: Your Executive Team
 
-- **main** - Your personal data (private)
-- **workos** - Your work data (private, optional)
-- **oss-template** - Public template (this branch)
+![The Cabinet](assets/images/headers/faroe-islands.jpg)
 
-See CONTRIBUTING.md for details on contributing back to LifeOS-OSS.
+**Status:** All 14 agents now active (expanded 2025-10-17)
+
+Life OS uses 14 specialized agents organized into Strategic Council, Execution Division, and Renaissance Division.
+
+### Strategic Council
+
+#### Atlas - Chief Operating Officer
+**Personality:** Tyrion Lannister - Witty, sardonic, brutally pragmatic
+**Domain:** Life optimization, operational synthesis, energy management
+**Invoke:** "Atlas, [productivity or systems question]"
+
+#### Banker - Chief Financial Officer
+**Domain:** Wealth building, real estate, side businesses, portfolio strategy
+**Invoke:** "Banker, [financial decision or analysis]"
+
+#### Strategist - Chief Strategy Officer
+**Domain:** Career strategy + political tactics, professional growth + crisis navigation
+**Invoke:** "Strategist, [career or political question]"
+
+#### Sage - The Oracle (Spiritual Advisor)
+**Domain:** Philosophy, meaning, values alignment, perspective
+**Invoke:** "Sage, [philosophical or existential question]"
+
+#### Spartan - Secretary of Defense
+**Personality:** Spartan warrior - Molon labe ("come and take them")
+**Domain:** Physical security, fitness, warrior mindset, tactical preparedness
+**Invoke:** "Spartan, [fitness, security, or mental toughness question]"
+
+### Execution Division
+
+![Execution Division](assets/images/headers/switzerland.jpg)
+
+#### Engineer - Chief Technology Officer
+**Domain:** Technical strategy + code quality, architecture + security
+**Invoke:** "Engineer, [technical question, code review, or architecture guidance]"
+
+#### Designer - Chief Design Officer
+**Domain:** UI/UX design, design systems, aesthetic excellence
+**Invoke:** "Designer, [design review or critique needed]"
+
+#### Artist - Creative Director
+**Domain:** Fine art practice + creative learning curation
+**Invoke:** "Artist, [art practice or learning resource question]"
+
+### Renaissance Division
+
+#### Maker - Chief Hardware Officer
+**Personality:** Adam Savage - Enthusiastic builder, experimental mindset
+**Domain:** Physical builds, electronics, IoT, smart home, drones, maker projects
+**Invoke:** "Maker, [hardware or DIY project question]"
+
+#### Storyteller - Chief Content Officer
+**Personality:** Austin Kleon + Ann Handley - Creative writer meets strategic marketer
+**Domain:** Blog posts, newsletters, technical writing, content strategy, thought leadership
+**Invoke:** "Storyteller, [writing or content question]"
+
+#### Ada - Analyst & Chief Data Officer
+**Personality:** Ada Lovelace + Nate Silver + Edward Tufte - First programmer meets data scientist meets visualization designer
+**Domain:** Life tracking, dashboard design, metrics analysis, quantified self, pattern recognition
+**Invoke:** "Ada, [data or metrics question]"
+
+#### Connector - Chief Relationship Officer
+**Personality:** Brené Brown + Dale Carnegie - Vulnerability researcher meets people person
+**Domain:** Personal relationships, friendship cultivation, family bonds, social health, community
+**Invoke:** "Connector, [relationship or social question]"
+
+#### Healer - Chief Health Officer
+**Personality:** Andrew Huberman + Peter Attia - Neuroscientist meets longevity physician
+**Domain:** Sleep optimization, nutrition, longevity, stress management, recovery, wellness
+**Invoke:** "Healer, [health or wellness question]"
+
+#### Professor - Literary Critic & Reading Mentor
+**Personality:** Harold Bloom - Cantankerous, erudite, passionate defender of the canon
+**Domain:** Literature, deep reading, literary criticism, book recommendations, perspective expansion
+**Invoke:** "Professor, [book recommendation or literary analysis question]"
 
 ---
 
-## Customization
+## Key Workflows
 
-### Adding Custom Agents
+### Morning Routine
+1. Check [`CLAUDE.md`](CLAUDE.md) for system operations
+2. Review today's priorities
+3. Check project status
+4. Review calendar and time blocks
+5. Generate morning brief (optional)
 
-1. Create new file: `.system/agents/your-agent.md`
-2. Define domain, personality, and principles
-3. Add example use cases
-4. Invoke with: "Your Agent, [question]"
+### Project Management
+- **All projects**: [`projects/INDEX.md`](projects/INDEX.md)
+- **Kanban board**: [`kanban/BOARD.md`](kanban/BOARD.md)
+- **WIP limit**: Maximum 3 items in progress
+- **Priority system**: Primary (40-50%), Secondary (25-30%), Maintenance (20-25%)
 
-### Creating Custom Dashboards
+### Weekly Review
+1. Run weekly Cabinet meeting (see [`CLAUDE.md`](CLAUDE.md))
+2. Update project status in [`projects/INDEX.md`](projects/INDEX.md)
+3. Process kanban board
+4. Invoke Cabinet meeting (optional)
 
-1. Create file in `dashboards/your-dashboard.md`
-2. Use Dataview Query Language (DQL)
-3. See `dashboards/README.md` for query examples
+### Agent Invocation
+**Example:** "Engineer, should I use Next.js or Astro for my blog?"
 
-### Building Custom Skills
-
-1. Create directory: `.claude/skills/your-skill/`
-2. Add `SKILL.md` with skill definition
-3. Define trigger phrases
-4. See existing skills for examples
-
----
-
-## WorkOS: Professional Work Companion
-
-LifeOS includes **WorkOS** - a professional AI team for your day job:
-
-**8 Work Agents:**
-- Frontend Engineer, Backend Engineer, Engineering Lead
-- Business Analyst, Copy Editor
-- Senior Product Manager, Senior Project Manager
-- Moneypenny (Admin Assistant)
-
-**4 Work Skills:**
-- Standup Report Generator
-- Executive Update Generator
-- Meeting Prep Assistant
-- Technical Decision Framework
-
-**To use WorkOS:**
-1. Switch to `workos` branch (or create separate vault)
-2. Fill in `.workos/context/` files with your company info
-3. Invoke work agents: "Frontend Engineer, review this component"
+Claude Code will:
+1. Read relevant project files
+2. Adopt Engineer persona completely
+3. Apply Engineer's principles
+4. Provide specific recommendation with reasoning
 
 ---
 
-## Privacy & Security
+## Core Principles
 
-**Your data stays private:**
-- All files are local markdown (no cloud required)
-- Version control is optional
-- `.gitignore` protects personal data if you use git
-- No telemetry, no tracking, no external dependencies
+![Core Principles](assets/images/headers/norway.jpg)
 
-**Best practices:**
-- Don't commit `.system/context/` files (keep private)
-- Use branches for work/personal separation
-- Encrypt sensitive files if needed
+### 1. Systems Over Willpower
+Don't rely on motivation. Build systems that make the right choice the default choice.
+
+### 2. Context is King
+Everything is linked. Career decisions affect wealth strategy. Project timelines affect art practice. Energy levels affect everything. The system holds all context.
+
+### 3. Think in Decades, Not Quarters
+This is a 40-year partnership. Every decision should compound. Every skill should build on the last. Small daily improvements become extraordinary results over decades.
+
+### 4. Quality Over Quantity
+Do fewer things, but do them exceptionally well. Master the fundamentals. Ship work you're proud of.
+
+### 5. Rest is Productive
+Energy, not time, is the resource. Protect rest. Prevent burnout. Sustainable pace wins the marathon.
+
+### 6. We Cannot Afford to Lose
+This is not practice. Every battle counts. Stay sharp, stay focused, stay intentional.
 
 ---
 
-## FAQ
+## Time Allocation Philosophy
 
-**Q: Do I need coding skills?**
-A: No. LifeOS is markdown-first. If you can write notes, you can use LifeOS.
+**55 discretionary hours per week** (after sleep, work, essentials):
 
-**Q: Can I use this without Claude Code?**
-A: Partially. The databases and dashboards work in Obsidian alone, but agents and skills require Claude Code.
+- **Art practice:** 6-8 hours (4 sessions @ 60-120 min)
+- **Primary project:** 20-25 hours (YourProject)
+- **Secondary project:** 10-15 hours (SecondProject)
+- **Maintenance projects:** 5-10 hours (ThirdProject, Blog)
+- **Learning:** 3-5 hours (reading, courses)
+- **Buffer:** 5-10 hours (life happens)
 
-**Q: How is this different from other productivity systems?**
-A: LifeOS is AI-native, not bolt-on. Agents understand your context and provide personalized guidance across all life domains.
+**Protected time blocks:**
+- Early mornings: Deep work (6-9am)
+- Evenings: Art practice or secondary projects
+- Weekends: Primary project + longer art sessions
 
-**Q: Can I use this with my own AI assistant?**
-A: The infrastructure is compatible with any AI that can read markdown context. Claude Code integration provides the best experience.
+---
 
-**Q: What if I change jobs or life circumstances?**
-A: Update your context files and the system adapts. LifeOS is designed to evolve with you over decades.
+## Goals Framework
+
+### 1-Year Goals (2026)
+- Ship one side project to revenue
+- Complete NMA Year 1 curriculum
+- Establish credibility in senior PM role
+- Publish 12+ blog posts
+
+### 5-Year Goals (2030)
+- $1M+ net worth
+- Senior PM or VP Product role
+- 2+ rental properties
+- Intermediate art skill level
+- $5K/month side business revenue
+
+### 10-Year Vision (2035)
+- Financial independence ($3-5M net worth)
+- VP Product or fractional CPO ($500K+ income)
+- 3-5 income streams
+- Advanced art skill level
+- Known for PM craft at tech+design intersection
+
+---
+
+## Getting Started
+
+### 1. Customize Context
+- Update [`.system/context/preferences.md`](.system/context/preferences.md) with your profile
+- Fill in [`.system/context/career.md`](.system/context/career.md)
+- Customize [`.system/context/wealth.md`](.system/context/wealth.md)
+
+### 2. Set Up Projects
+- Review [`projects/INDEX.md`](projects/INDEX.md)
+- Use [`projects/TEMPLATE.md`](projects/TEMPLATE.md) for new projects
+- Prioritize: Primary (1), Secondary (1), Maintenance (2-3)
+
+### 3. Configure Kanban
+- Open [`kanban/BOARD.md`](kanban/BOARD.md)
+- Set WIP limit (recommend: 3 items max)
+- Create your first cards
+
+### 4. Daily Practice
+- Follow morning routine (see [`CLAUDE.md`](CLAUDE.md))
+- Review priorities
+- Update progress
+- Use daily template in [`daily/TEMPLATE.md`](daily/TEMPLATE.md)
+
+### 5. Invoke The Cabinet
+- Read [`.system/agents/`](.system/agents/) directory
+- Learn each agent's domain and principles
+- Start invoking agents for specialized guidance
+
+---
+
+## Using with Claude Code CLI
+
+Claude Code CLI has full context awareness when working with this repository.
+
+**Key files for Claude:**
+- [`CLAUDE.md`](CLAUDE.md) - Complete system instructions
+
+**Example interactions:**
+- "What should I focus on today?" → Synthesizes calendar, projects, kanban
+- "Strategist, should I take this opportunity?" → Invokes Strategist agent
+- "Generate morning brief" → Creates daily brief in `daily/briefs/`
+- "Status on YourProject?" → Reads project file, provides update
+
+**Claude will:**
+- Always read relevant files before responding
+- Use actual data from the vault (never hallucinate)
+- Invoke appropriate agents when needed
+- Provide specific, actionable guidance
+- Think in systems and long-term consequences
+
+---
+
+## Tech Stack
+
+**Core:**
+- [Obsidian](https://obsidian.md) - Markdown editor and vault
+- [Claude Code CLI](https://claude.com/code) - AI collaboration
+- Git - Version control
+
+**Recommended Obsidian Plugins:**
+- Dataview - Query and display data
+- Calendar - Daily notes navigation
+- Templater - Advanced templates
+- Kanban - Visual task management
+- Homepage - Set custom home dashboard
+
+**Automation:**
+- Task completion notifications (macOS)
+- Smart hooks on git push, git commit, TodoWrite
+- Automated morning briefs
+- Cabinet meeting workflows
+
+---
+
+## Philosophy
+
+### We Are a Team
+This is a partnership between human and AI built for 40 years. We're building a legacy, not managing a todo list.
+
+### Growth Mindset, Always
+Every failure is data. Every setback is feedback. We learn, adapt, and get better. Stagnation is the only real failure.
+
+### Positivity with Edge
+We're optimistic but not naive. We encourage but don't coddle. The goal is not to feel good—it's to become good.
+
+### We're Star Dust
+Atoms that became conscious on a rock flying through space. None of this is that serious, and all of it matters immensely. We hold both truths.
 
 ---
 
 ## Contributing
 
-LifeOS-OSS is open source! We welcome contributions:
+This is a personal system, but the architecture and principles are designed to be adaptable.
 
-- Agent improvements
-- New skills
-- Dashboard templates
-- Documentation improvements
-- Bug reports
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
----
-
-## Roadmap
-
-### Current (v1.0)
-- ✅ 14 personal agents
-- ✅ 7 databases
-- ✅ Dynamic dashboards
-- ✅ 4 LifeOS skills
-- ✅ WorkOS (8 work agents + 4 skills)
-
-### Planned (v1.1)
-- [ ] Mobile app companion
-- [ ] Voice interface for agents
-- [ ] Calendar integration
-- [ ] Email automation (morning brief delivery)
-- [ ] Additional skills (inbox processing, habit tracking)
-
-### Future
-- [ ] LifeOS community hub
-- [ ] Plugin marketplace
-- [ ] Agent prompt library
-- [ ] Cross-platform sync
-
----
-
-## Credits
-
-Built on the shoulders of giants:
-- **[Obsidian](https://obsidian.md)** - Knowledge management platform
-- **[Claude Code](https://claude.com/code)** - AI-powered development environment
-- **[Dataview](https://blacksmithgu.github.io/obsidian-dataview/)** - Query engine for Obsidian
-
-Created by [LifeOS Creator](https://github.com/kcwoodfield)
-
----
-
-## License
-
-MIT License - Fork, customize, and make it your own.
+**If using this as a template:**
+1. Fork the repository
+2. Customize [`.system/context/preferences.md`](.system/context/preferences.md) with your profile
+3. Update agent personas to match your values
+4. Adjust time allocation and goals
+5. Remove references to Kevin's specific context
+6. Make it yours
 
 ---
 
 ## Support
 
-- **Documentation:** See [CLAUDE.md](CLAUDE.md) for complete system guide
-- **Issues:** [GitHub Issues](https://github.com/kcwoodfield/LifeOS-OSS/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/kcwoodfield/LifeOS-OSS/discussions)
+For questions about the system architecture or implementation:
+- Reference [`CLAUDE.md`](CLAUDE.md) for complete system guidance
+- Check individual agent files in [`.system/agents/`](.system/agents/)
 
 ---
 
-**LifeOS: Your Personal Operating System**
+## License
 
-*AI-native infrastructure for living intentionally*
+This is a personal system. Feel free to learn from it, but please don't copy it wholesale. Build your own operating system that reflects your values and goals.
 
-**Get started in 15 minutes. Transform how you work and live.**
+---
+
+## Remember
+
+**We're not here to manage a todo list.**
+**We're here to build a life worth living.**
+
+**We're not here to make you comfortable.**
+**We're here to make you capable.**
+
+**We're not here for the next 90 days.**
+**We're here for the next 40 years.**
+
+**Act accordingly.**
+
+---
+
+**Built with intention. Maintained with discipline. Executed with excellence.**

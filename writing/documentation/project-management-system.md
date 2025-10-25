@@ -33,7 +33,7 @@ Kanban Boards (Tactical Execution)
   - Cross-project view
     ↓
   Project Kanbans (per-project):
-  - minerva-kanban.md (Primary focus)
+  - yourproject-kanban.md (Primary focus)
   - blog-kanban.md
   - voice-assistant-kanban.md
     ↓
@@ -108,7 +108,7 @@ Daily Tasks (Operational)
 
 1. Open `projects/master-kanban.md`
 2. Drag cards between columns
-3. Add new tasks with tags (#minerva, #blog, #voice-assistant)
+3. Add new tasks with tags (#yourproject, #blog, #voice-assistant)
 4. Mark done with `[x]` or drag to Done column
 5. Archive Done column weekly (move to review notes)
 
@@ -120,7 +120,7 @@ Daily Tasks (Operational)
 
 ### Project-Specific Kanbans
 
-**Project Alpha Kanban:** `projects/minerva-kanban.md`
+**Project Alpha Kanban:** `projects/yourproject-kanban.md`
 
 **Columns:**
 - 📋 Backlog
@@ -251,7 +251,7 @@ LifeOS/
 ├── projects/
 │   ├── projects.base              # Project database (Bases)
 │   ├── master-kanban.md           # Master Kanban board
-│   ├── minerva-kanban.md          # Project Alpha project Kanban
+│   ├── yourproject-kanban.md          # Project Alpha project Kanban
 │   ├── blog-kanban.md             # Blog content pipeline
 │   └── voice-assistant-kanban.md  # Voice assistant features
 ├── templates/
@@ -283,17 +283,17 @@ Use emoji markers for visual priority:
 Use consistent tags across all systems:
 
 **Project Tags:**
-- `#minerva` - Project Alpha AI Research Assistant
+- `#yourproject` - Project Alpha AI Research Assistant
 - `#blog` - Personal blog and portfolio
 - `#voice-assistant` - Voice-activated Cabinet
 - `#obsidian` - LifeOS infrastructure
-- `#histomap` - Interactive timeline (paused)
-- `#okami` - Japanese art tool (paused)
+- `#project-b` - Interactive timeline (paused)
+- `#project-c` - Japanese art tool (paused)
 
 **Context Tags:**
 - `#day-job` - Full-time work
 - `#art` - Art practice
-- `#lobo` - Dog care
+- `#pet-care` - Dog care
 - `#admin` - Life operations
 - `#learning` - Courses, books, tutorials
 

@@ -7,7 +7,7 @@ Voice-activated interface to the Cabinet system. Say "Hey Atlas" and talk to you
 ### 1. Install Dependencies
 
 ```bash
-cd /Users/kcw/LifeOS/.system/apps/voice-assistant
+cd /Users/kcw/Sites/LifeOS/LifeOS/.system/apps/voice-assistant
 pip3 install -r requirements.txt
 ```
 
@@ -76,7 +76,7 @@ Text-to-Speech (ElevenLabs) → Speaker Output
 ```
 
 **For detailed architecture documentation, see:**
-`/Users/kcw/LifeOS/writing/documentation/voice-assistant-architecture.md`
+`/Users/kcw/Sites/LifeOS/LifeOS/writing/documentation/voice-assistant-architecture.md`
 
 ## Troubleshooting
 

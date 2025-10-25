@@ -83,7 +83,7 @@ How are you feeling now? What went well? What was hard?
 **highlights** (array)
 - Best moments or wins from the day
 - Format: `["Moment 1", "Moment 2"]`
-- Examples: `["Breakthrough on Project Alpha bug", "Great conversation with friend", "Nailed the presentation"]`
+- Examples: `["Breakthrough on YourProject bug", "Great conversation with friend", "Nailed the presentation"]`
 - Empty array `[]` if none
 
 **challenges** (array)
@@ -179,11 +179,11 @@ title: "2025-10-19 Journal"
 date: 2025-10-19
 mood: good
 energy: 7
-gratitude: ["Morning walk with your pet", "Progress on Project Alpha", "Sunny weather"]
+gratitude: ["Morning walk with YourPet", "Progress on YourProject", "Sunny weather"]
 highlights: ["Shipped authentication feature", "Great call with Designer"]
 challenges: ["Struggled with focus in afternoon"]
 insights: ["I need to block afternoon for admin, mornings for deep work"]
-tags: [work, productivity, lobo]
+tags: [work, productivity, pet]
 created: 2025-10-19
 updated: 2025-10-19
 ---
@@ -194,12 +194,12 @@ Solid day. Shipped the authentication feature I've been wrestling with for a wee
 
 Afternoon was scattered - too many interruptions, context switching killed momentum. Need to be more protective of morning deep work blocks and just accept that afternoons are for meetings and admin.
 
-Walk with your pet at sunset was exactly what I needed. He found a stick that was comically oversized and refused to drop it. That dog is pure joy.
+Walk with YourPet at sunset was exactly what I needed. He found a stick that was comically oversized and refused to drop it. That dog is pure joy.
 
 ## Gratitude
 
-1. Morning walk with your pet
-2. Progress on Project Alpha (finally!)
+1. Morning walk with YourPet
+2. Progress on YourProject (finally!)
 3. Sunny weather - feeling the seasonal shift
 ```
 
@@ -211,7 +211,7 @@ title: "Processing a Hard Day"
 date: 2025-10-20
 mood: difficult
 energy: 3
-gratitude: ["your pet's presence", "Friend's text checking in"]
+gratitude: ["YourPet's presence", "Friend's text checking in"]
 highlights: []
 challenges: ["Conflict with manager", "Anxiety spiral", "Couldn't focus at all"]
 insights: ["I avoid conflict and let resentment build", "Need to address this head-on", "My body was telling me something was wrong - I ignored it"]
@@ -236,11 +236,11 @@ I don't have to solve this tonight. But I need to:
 3. Draft a follow-up email to manager (clear, non-emotional)
 4. Maybe get Cabinet input on this
 
-your pet sensed something was off. He's been glued to my side all evening, resting his giant head on my lap. Dogs are the best therapists.
+YourPet sensed something was off. He's been glued to my side all evening, resting his giant head on my lap. Dogs are the best therapists.
 
 ## Gratitude
 
-1. your pet's presence - he knows when I need him
+1. YourPet's presence - he knows when I need him
 2. Friend texted at exactly the right moment
 3. Tomorrow is a new day
 ```

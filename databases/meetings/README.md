@@ -87,7 +87,7 @@ LIMIT 20
 **File naming:** `YYYY-MM-DD-meeting-name.md`
 **Examples:**
 - `2025-10-19-weekly-cabinet-meeting.md`
-- `2025-10-19-minerva-kickoff.md`
+- `2025-10-19-yourproject-kickoff.md`
 - `2025-10-19-1on1-with-manager.md`
 
 **Why this format:**

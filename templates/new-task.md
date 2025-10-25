@@ -5,7 +5,7 @@ priority: medium
 project: null
 due_date: <% tp.date.now("YYYY-MM-DD", 7) %>
 effort: M
-assigned_to: User
+assigned_to: Your Name
 dependencies: []
 tags: []
 created: <% tp.date.now("YYYY-MM-DD") %>

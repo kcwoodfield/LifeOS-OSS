@@ -52,7 +52,7 @@ Next steps, items to revisit, parking lot issues.
 
 **title** (string)
 - Meeting name or purpose
-- Examples: "Weekly Cabinet Meeting", "Project Alpha Kickoff", "1:1 with Manager", "Sprint Planning"
+- Examples: "Weekly Cabinet Meeting", "YourProject Kickoff", "1:1 with Manager", "Sprint Planning"
 
 **date** (date)
 - Meeting date: YYYY-MM-DD
@@ -84,7 +84,7 @@ Next steps, items to revisit, parking lot issues.
 
 **project** (link or null)
 - Link to related project: `[[Project Name]]`
-- Can link to PRD: `[[projects/prds/minerva]]`
+- Can link to PRD: `[[projects/prds/yourproject]]`
 - Null if not project-specific
 
 **decisions** (array)
@@ -147,7 +147,7 @@ tags: [sprint-planning, q4-roadmap]
 ```yaml
 type: project
 participants: ["User", "Designer Friend"]
-project: [[projects/prds/minerva]]
+project: [[projects/prds/yourproject]]
 tags: [design, architecture, planning]
 ```
 
@@ -176,7 +176,7 @@ participants: ["Atlas", "Banker", "Strategist", "Sage", "Spartan", "Engineer"]
 duration: 75
 project: null
 decisions:
-  - "Prioritize Project Alpha over blog for Q4"
+  - "Prioritize YourProject over blog for Q4"
   - "Increase art practice to 3x per week"
   - "Hold off on rental property purchase until Q1 2026"
 action_items:
@@ -196,7 +196,7 @@ updated: 2025-10-19
 
 *"Ah yes, another week where we've somehow convinced ourselves that working 60 hours while painting like Da Vinci and reading Proust is 'sustainable.' Delightful."*
 
-**Velocity:** Shipped 3 major features on Project Alpha, completed 2 blog drafts
+**Velocity:** Shipped 3 major features on YourProject, completed 2 blog drafts
 **Balance:** Work 50hrs, art 4hrs, side projects 15hrs - art practice slipping
 **Energy:** 7/10 average, Thursday dip notable
 **Next week capacity:** High, no major meetings scheduled
@@ -207,7 +207,7 @@ updated: 2025-10-19
 
 **Net Worth:** Up 3.2% this month
 **Portfolio:** Tech stocks recovering, bonds stable
-**Side Income:** Project Alpha beta revenue $2K (first paying customers!)
+**Side Income:** YourProject beta revenue $2K (first paying customers!)
 **Opportunities:** Rental property showing 8% cap rate but market cooling
 
 **Recommendation:** Wait on real estate until Q1 2026, market indicators suggest better deals coming
@@ -226,13 +226,13 @@ updated: 2025-10-19
 ## Synthesis (Atlas)
 
 **Key Themes:**
-1. Project Alpha momentum is real - paying customers validate product direction
+1. YourProject momentum is real - paying customers validate product direction
 2. Art practice suffering - needs protected time blocks
 3. Career trajectory on track - stay the course
 4. Financial position strong - patience on real estate
 
 **Decisions Made:**
-1. **Q4 Priority:** Project Alpha over blog (paying customers > audience building right now)
+1. **Q4 Priority:** YourProject over blog (paying customers > audience building right now)
 2. **Art Practice:** 3x per week minimum, calendar blocked, non-negotiable
 3. **Real Estate:** Hold until Q1 2026, continue research and save for larger down payment
 
@@ -243,7 +243,7 @@ See frontmatter above - tasks created in databases/tasks/
 
 **Next Cabinet Meeting:** 2025-10-26 (Sunday evening)
 **Items to Revisit:**
-- Project Alpha beta metrics (track weekly)
+- YourProject beta metrics (track weekly)
 - Art practice consistency (did we hit 3x per week?)
 - Reorg developments (monitor via Strategist)
 ```

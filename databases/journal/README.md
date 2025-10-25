@@ -173,7 +173,7 @@ SORT date ASC
 
 **Gratitude Practice:**
 - End each entry with 3 things you're grateful for
-- Can be tiny: "Good coffee. your pet's tail wag. Sunset colors."
+- Can be tiny: "Good coffee. YourPet's tail wag. Sunset colors."
 - Builds positive mental patterns over time
 - Proven impact on well-being
 

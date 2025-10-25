@@ -351,7 +351,7 @@ Net worth change, major financial moves, critical opportunities
 - Equity buildup: $100K+ through appreciation + principal paydown
 
 **Stream 3: Side Business (Years 2-7)**
-- Launch: Project Alpha, Project Beta, or Project Gamma (choose one)
+- Launch: YourProject, SecondProject, or ThirdProject (choose one)
 - Target: $5K/month by year 5 ($60K/year)
 - Scale: $10K/month by year 7 ($120K/year)
 - Exit: Sell for 3-5x revenue or keep as cash cow

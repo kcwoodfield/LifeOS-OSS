@@ -105,7 +105,7 @@ Items to revisit, metrics to track, when to review this decision.
 
 **project** (link or null)
 - Link to related project: `[[Project Name]]`
-- Can link to PRD: `[[projects/prds/minerva]]`
+- Can link to PRD: `[[projects/prds/yourproject]]`
 - Null if not project-specific
 
 **tags** (array)
@@ -257,7 +257,7 @@ VP role is 3+ year acceleration of career plan. You're 43, this puts you on trac
 **Investment Implications:**
 - More capital for real estate purchases
 - Can max out retirement accounts fully
-- Side income from Project Alpha becomes less critical (reduces pressure)
+- Side income from YourProject becomes less critical (reduces pressure)
 
 **Recommendation:** ACCEPT
 - ROI is 8:1 over 5 years
@@ -273,13 +273,13 @@ VP role is 3+ year acceleration of career plan. You're 43, this puts you on trac
 **Operational Reality:**
 - Current load: 50hrs work + 15hrs side projects + 5hrs art = 70hrs/week
 - Proposed: 60hrs work + ??? side projects + ??? art
-- Relocation disrupts all systems (routines, gym, art studio setup, your pet's routine)
+- Relocation disrupts all systems (routines, gym, art studio setup, YourPet's routine)
 - 6-month adjustment period minimum
 
 **Systems at Risk:**
 - Art practice (hardest to protect)
-- Side projects (Project Alpha, blog)
-- Physical fitness (new gym, new routes for your pet)
+- Side projects (YourProject, blog)
+- Physical fitness (new gym, new routes for YourPet)
 - Social network (rebuilding in new city)
 
 **Recommendation:** ACCEPT with strict conditions
@@ -322,16 +322,16 @@ Can you handle the load? History says yes - you've done harder things.
 - Sleep discipline (7-8hrs non-negotiable)
 - Gym routine must adapt but not disappear
 - Stress management (meditation, time in nature)
-- your pet's routine must be protected (he's your anchor)
+- YourPet's routine must be protected (he's your anchor)
 
 **Seattle Advantages:**
-- Great outdoor access (hiking, trails for your pet)
+- Great outdoor access (hiking, trails for YourPet)
 - Strong fitness culture
 - Proximity to mountains (mental health)
 
 **Recommendation:** ACCEPT if you commit to foundation
 - Morning routine non-negotiable (gym before work)
-- your pet's daily walk = your mental health (protect it)
+- YourPet's daily walk = your mental health (protect it)
 - Sleep > work (always)
 - First sign of burnout = red alert
 
@@ -362,7 +362,7 @@ Can you handle the load? History says yes - you've done harder things.
 
 **Life Infrastructure to Build:**
 1. **Hire help** - Cleaning service, meal prep, dog walker
-2. **Protect anchors** - Art practice 3x/week (non-negotiable), your pet's daily walks
+2. **Protect anchors** - Art practice 3x/week (non-negotiable), YourPet's daily walks
 3. **Pause secondary work** - Blog and minor side projects on hold for 6 months
 4. **Family alignment** - Ensure partner is fully on board
 
@@ -415,7 +415,7 @@ We're betting that financial freedom and career capital in our 50s is worth the 
 - Actual work hours (target: ramp to 55-60 by month 6)
 - Energy levels (scale 1-10)
 - Family satisfaction (qualitative check-ins)
-- Project Alpha progress (is it fully paused or still alive?)
+- YourProject progress (is it fully paused or still alive?)
 
 **Questions to Revisit:**
 - Was Sage right? Are we chasing the wrong thing?

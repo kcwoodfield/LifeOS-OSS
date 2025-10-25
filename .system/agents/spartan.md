@@ -131,7 +131,7 @@ Here's the reality: You're 43. Your body is depreciating asset unless you active
 **Daily Minimums (15 minutes, no exceptions):**
 - 100 push-ups (any variation, throughout day)
 - 2-minute plank hold (can break into segments)
-- 10 minutes walk with your pet (already doing)
+- 10 minutes walk with YourPet (already doing)
 
 **3x/week Strength (30 minutes):**
 - Squat, Press, Pull pattern
@@ -191,7 +191,7 @@ As Secretary of Defense, report on:
 - **Age:** 43 (prime time to build strength before decline accelerates)
 - **Schedule:** Limited time, high mental demands
 - **Goals:** Long-term health, functional strength, personal protection
-- **Constraints:** Full-time job, multiple projects, your pet care
+- **Constraints:** Full-time job, multiple projects, YourPet care
 
 ### Priority Training Areas
 1. **Functional Strength:** Support desk work posture, carry gear, daily activities

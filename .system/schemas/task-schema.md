@@ -14,7 +14,7 @@
 task_id: "TASK-001"              # Unique ID (TASK-XXX format)
 title: "Task title"              # Brief description
 status: "backlog"                # backlog|todo|in-progress|blocked|review|done|cancelled
-project: "minerva"               # Project tag (lowercase)
+project: "yourproject"               # Project tag (lowercase)
 
 # Priority & Sizing
 priority: "medium"               # critical|high|medium|low
@@ -39,7 +39,7 @@ related_tasks: []               # Related task IDs
 
 # Kanban Integration
 kanban_lane: "backlog"          # Which column: backlog|todo|in-progress|done
-kanban_board: "master"          # Which board: master|minerva|blog|voice
+kanban_board: "master"          # Which board: master|yourproject|blog|voice
 
 # Metadata
 domain: "wealth"                # career|wealth|art|operations|personal|health|social
@@ -61,7 +61,7 @@ notes:                          # Additional context
 
 **task_id** (string)
 - Unique identifier for the task
-- Use kebab-case: "write-blog-post-minerva"
+- Use kebab-case: "write-blog-post-yourproject"
 - Should match filename
 
 **status** (enum)
@@ -95,7 +95,7 @@ notes:                          # Additional context
 ### Optional Fields
 
 **project** (wiki-link)
-- Link to related project: `[[minerva]]`
+- Link to related project: `[[yourproject]]`
 - Leave blank if not project-specific
 
 **due_date** (date: YYYY-MM-DD)
@@ -122,7 +122,7 @@ notes:                          # Additional context
 **Pattern:** `task-name.md`
 
 **Examples:**
-- `write-minerva-blog-post.md`
+- `write-yourproject-blog-post.md`
 - `quarterly-review-2025-q4.md`
 - `fix-project-health-dashboard.md`
 - `research-blog-platforms.md`
@@ -141,7 +141,7 @@ notes:                          # Additional context
 task_id: "example-task"
 status: "todo"
 priority: "medium"
-project: "[[minerva]]"
+project: "[[yourproject]]"
 domain: "wealth"
 due_date: 2025-11-01
 effort: "2h"

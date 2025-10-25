@@ -26,7 +26,7 @@ The LifeOS Kanban system uses the **Obsidian Kanban plugin** to provide visual t
 
 ### Project-Specific Kanbans
 
-**Project Alpha:** `projects/minerva-kanban.md`
+**Project Alpha:** `projects/yourproject-kanban.md`
 - Columns: Backlog | Validation Phase | Interviewing | Analysis | Completed | Archive
 - Purpose: Track Project Alpha validation workflow
 
@@ -74,7 +74,7 @@ The LifeOS Kanban system uses the **Obsidian Kanban plugin** to provide visual t
 
 **Card with Multiple Attributes:**
 ```markdown
-- [ ] Schedule 10 PM interviews #minerva @high #p1 📅 2025-10-20 ⏰ 09:00
+- [ ] Schedule 10 PM interviews #yourproject @high #p1 📅 2025-10-20 ⏰ 09:00
 ```
 
 **Completed Card:**
@@ -143,12 +143,12 @@ Use @ mentions for priority levels:
 ## Tag System
 
 ### Project Tags
-- `#minerva` - Project Alpha validation
+- `#yourproject` - Project Alpha validation
 - `#blog` - Blog content
 - `#voice-assistant` - Voice assistant features
 - `#obsidian` - LifeOS infrastructure
-- `#histomap` - Project Beta (paused)
-- `#okami` - Project Gamma (paused)
+- `#project-b` - Project Beta (paused)
+- `#project-c` - Project Gamma (paused)
 
 ### Category Tags
 - `#research` - Research tasks
@@ -166,7 +166,7 @@ Use @ mentions for priority levels:
 
 **Example:**
 ```markdown
-- [ ] Schedule 10 PM interviews #minerva #interviews @high #p1 📅 2025-10-20
+- [ ] Schedule 10 PM interviews #yourproject #interviews @high #p1 📅 2025-10-20
 ```
 
 ---
@@ -369,7 +369,7 @@ When you check a card, plugin adds:
 
 **Link to notes:**
 ```markdown
-- [ ] Review [[projects/prds/minerva|Project Alpha PRD]] #minerva @high
+- [ ] Review [[projects/prds/yourproject|Project Alpha PRD]] #yourproject @high
 ```
 
 **Link to other cards:**
@@ -448,7 +448,7 @@ Link Kanban cards to Base items:
 - **Action:** Use 📅 emoji + date
 
 ### 5. Tag Everything
-- **Rule:** Every card has project tag (#minerva) and category (#research)
+- **Rule:** Every card has project tag (#yourproject) and category (#research)
 - **Why:** Enables filtering and querying
 - **Action:** Add tags when creating card
 
@@ -524,7 +524,7 @@ Create card templates for common tasks:
 
 ### 4. Add Context to Cards
 ```markdown
-- [ ] Schedule interviews #minerva @high 📅 2025-10-20
+- [ ] Schedule interviews #yourproject @high 📅 2025-10-20
   Goal: 10 interviews by Nov 15
   Criteria: Mix of B2B and B2C PMs
   Resources: [[Interview Guide]], [[PM List]]

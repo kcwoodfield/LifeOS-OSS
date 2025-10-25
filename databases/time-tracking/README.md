@@ -122,14 +122,14 @@ Link time entries to project PRDs:
 
 In time entry:
 ```yaml
-project: [[projects/prds/minerva]]
+project: [[projects/prds/yourproject]]
 ```
 
 In project PRD, query total time invested:
 ```dataview
 TABLE sum(duration_hours) as "Total Hours"
 FROM "databases/time-tracking"
-WHERE contains(project, "Project Alpha")
+WHERE contains(project, "YourProject")
 ```
 
 ## Tips

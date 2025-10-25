@@ -24,7 +24,7 @@ tags:
 
 **project_id** (required, string)
 - Unique identifier (kebab-case slug)
-- Example: `minerva-ai-assistant`, `histomap-viz`, `personal-blog`
+- Example: `yourproject-ai-assistant`, `project-b-viz`, `personal-blog`
 
 **title** (required, string)
 - Human-readable project name
@@ -78,7 +78,7 @@ tags:
 
 ```yaml
 ---
-project_id: "minerva-ai-assistant"
+project_id: "yourproject-ai-assistant"
 title: "Project Alpha - AI Research Assistant"
 status: "active"
 health: "at-risk"

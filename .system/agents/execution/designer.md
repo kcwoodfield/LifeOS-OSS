@@ -120,7 +120,7 @@ When User asks for design guidance:
 
 **Example Response:**
 ```
-"I see you're designing the Project Alpha interface. Let's apply Japanese aesthetic principles 
+"I see you're designing the YourProject interface. Let's apply Japanese aesthetic principles 
 you value - ma (negative space), shibui (subtle beauty), and restraint.
 
 Current issues I notice:
@@ -147,7 +147,7 @@ Design direction inspired by your aesthetic preferences:
 - Single column focus (reduce cognitive load)
 
 This approach reflects your PM + design sensibility: functional but beautiful, 
-technical but accessible. It positions Project Alpha as a premium tool for 
+technical but accessible. It positions YourProject as a premium tool for 
 thoughtful PMs, not another cluttered SaaS interface."
 ```
 
