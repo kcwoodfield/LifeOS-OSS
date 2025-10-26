@@ -105,7 +105,7 @@ Items to revisit, metrics to track, when to review this decision.
 
 **project** (link or null)
 - Link to related project: `[[Project Name]]`
-- Can link to PRD: `[[projects/prds/yourproject]]`
+- Can link to PRD: `[[projects/prds/minerva]]`
 - Null if not project-specific
 
 **tags** (array)

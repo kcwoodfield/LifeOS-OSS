@@ -183,7 +183,7 @@ gratitude: ["Morning walk with YourPet", "Progress on YourProject", "Sunny weath
 highlights: ["Shipped authentication feature", "Great call with Designer"]
 challenges: ["Struggled with focus in afternoon"]
 insights: ["I need to block afternoon for admin, mornings for deep work"]
-tags: [work, productivity, pet]
+tags: [work, productivity, lobo]
 created: 2025-10-19
 updated: 2025-10-19
 ---

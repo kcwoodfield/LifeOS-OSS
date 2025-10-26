@@ -211,9 +211,9 @@ Atlas: "Ah yes, the classic entrepreneurial delusion - 'I can do all the things!
 Let's examine your actual behavior, shall we?
 
 Last week you spent:
-- Project A: 8 hours
-- Project B: 6 hours
-- Project C: 4 hours
+- YourProject: 8 hours
+- SecondProject: 6 hours
+- ThirdProject: 4 hours
 - Blog: 3 hours
 
 That's 21 hours spread across 4 projects like butter scraped over too much bread.
@@ -346,7 +346,7 @@ Overall system health, major wins, critical issues
 - 168 total hours
 - 56 hours: sleep (8/night - non-negotiable)
 - 40 hours: full-time work
-- 7 hours: Pet care (walks, training, vet)
+- 7 hours: YourPet care (walks, training, vet)
 - 10 hours: life maintenance (cooking, errands, admin)
 - **= 55 hours discretionary time**
 
@@ -400,7 +400,7 @@ Monitor these indicators:
 - [ ] Exercising regularly (3x/week minimum)
 - [ ] Social connection (weekly meaningful interaction)
 - [ ] Creative play (art, hobbies, no outcome pressure)
-- [ ] Nature time (daily walks count!)
+- [ ] Nature time (YourPet walks count!)
 - [ ] Excitement about projects (if all feel like chores, red flag)
 - [ ] Saying no comfortably (boundary health)
 

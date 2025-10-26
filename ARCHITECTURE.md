@@ -77,11 +77,11 @@ All branches share infrastructure (agents, skills, schemas) but maintain isolate
 - Professor - Literature, deep reading
 
 **Skills:**
-- Morning Brief - Daily briefing generation
+- Morning Brief - Daily briefing generation (Option A: planning only, no frontmatter)
 - Cabinet Meeting - Multi-agent consultation
 - Project Health - Status monitoring
-- Weekly Review - End-of-week retrospective
-- Inbox Processing - GTD workflow automation (NEW)
+- Weekly Review - End-of-week retrospective (WITH frontmatter for metrics)
+- Inbox Processing - GTD workflow automation
 
 **Databases:**
 - tasks/ - All tasks with priorities
@@ -215,14 +215,13 @@ LifeOS/
 │   └── prds/                 Product requirement docs
 │
 ├── reflections/          # Daily/weekly/monthly reviews
-│   ├── daily/
-│   ├── weekly/
-│   └── monthly/
+│   ├── daily/                # Morning briefs (planning, no frontmatter)
+│   ├── weekly/               # Weekly reviews (WITH frontmatter)
+│   └── monthly/              # Monthly reviews (WITH frontmatter)
 │
 ├── writing/              # Blog posts and essays
-│   ├── drafts/
-│   ├── published/
-│   └── essays/
+│   ├── documentation/        # System documentation
+│   └── drafts/               # Blog post drafts
 │
 ├── meetings/             # Meeting notes (WorkOS)
 │   └── prep/                 Meeting briefings
@@ -238,7 +237,12 @@ LifeOS/
 ├── templates/            # Templater templates
 │   ├── new-task.md
 │   ├── new-idea.md
-│   └── ...
+│   ├── new-project.md
+│   ├── new-expense.md
+│   ├── new-book.md
+│   ├── new-blog-post.md
+│   ├── new-time-entry.md
+│   └── weekly-review.md, monthly-review.md
 │
 ├── assets/               # Images and media
 │   ├── agents/               Agent avatars
@@ -463,10 +467,11 @@ is solid - don't let crypto FOMO derail that strategy."
 ### Skill Output
 
 **Skills generate files:**
-- `reflections/daily/YYYY-MM-DD.md` (morning brief)
+- `reflections/daily/YYYY-MM-DD.md` (morning brief - no frontmatter)
+- `reflections/weekly/YYYY-MM-DD.md` (weekly review - WITH frontmatter)
 - `databases/cabinet/YYYY-MM-DD-meeting.md` (cabinet meeting)
-- `communications/standups/YYYY-MM-DD.md` (standup)
-- `communications/exec-updates/YYYY-MM-DD.md` (exec update)
+- `communications/standups/YYYY-MM-DD.md` (standup - WorkOS)
+- `communications/exec-updates/YYYY-MM-DD.md` (exec update - WorkOS)
 
 ---
 

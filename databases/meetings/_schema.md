@@ -6,7 +6,7 @@ Use this frontmatter structure for all meeting files in `databases/meetings/`.
 ---
 title: "Meeting Name/Purpose"
 date: 2025-10-19
-type: work                   # cabinet | work | project | social | other
+type: work                   # work | project | social | other
 participants: []             # List of attendees
 duration: null               # Meeting length in minutes
 project: null                # [[Project Name]] or null
@@ -59,11 +59,12 @@ Next steps, items to revisit, parking lot issues.
 - Used for sorting and queries
 
 **type** (enum)
-- `cabinet` - Cabinet meeting (multi-agent consultation)
 - `work` - Job-related meeting
 - `project` - Side project meeting
 - `social` - Coffee chat, networking, casual
 - `other` - Any other type of meeting
+
+**Note:** Cabinet meetings have their own dedicated database at `databases/cabinet/` with a specialized schema. Do not use `type: cabinet` here.
 
 **created** (date)
 - Date this note was created: YYYY-MM-DD
@@ -84,7 +85,7 @@ Next steps, items to revisit, parking lot issues.
 
 **project** (link or null)
 - Link to related project: `[[Project Name]]`
-- Can link to PRD: `[[projects/prds/yourproject]]`
+- Can link to PRD: `[[projects/prds/minerva]]`
 - Null if not project-specific
 
 **decisions** (array)
@@ -109,19 +110,7 @@ Next steps, items to revisit, parking lot issues.
 
 ## Meeting Type Definitions
 
-### Cabinet Meeting
-**Purpose:** Multi-agent strategic consultation
-**Participants:** Agent names (Atlas, Banker, Strategist, etc.)
-**Format:** Structured agent reports + synthesis
-**Frequency:** Weekly (Sunday evening) or ad-hoc for major decisions
-
-**Example:**
-```yaml
-type: cabinet
-participants: ["Atlas", "Banker", "Strategist", "Sage"]
-project: null
-tags: [weekly-review, strategy, operations]
-```
+**Note:** Cabinet meetings are NOT stored in this database. They have their own dedicated database at `databases/cabinet/` with a specialized schema for multi-agent consultations. See `databases/cabinet/README.md` for details.
 
 ### Work Meeting
 **Purpose:** Job-related meetings
@@ -147,7 +136,7 @@ tags: [sprint-planning, q4-roadmap]
 ```yaml
 type: project
 participants: ["User", "Designer Friend"]
-project: [[projects/prds/yourproject]]
+project: [[projects/prds/minerva]]
 tags: [design, architecture, planning]
 ```
 

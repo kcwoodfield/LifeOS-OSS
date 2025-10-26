@@ -151,7 +151,7 @@ created: 2025-10-19
 **Examples:**
 - `2025-10-19-lifeos-books-database.md`
 - `2025-10-18-lifeos-kernel-refactor.md`
-- `2025-10-17-yourproject-api-design.md`
+- `2025-10-17-minerva-api-design.md`
 
 **Why this format:**
 - Chronological sorting automatically

@@ -60,7 +60,7 @@ Any additional context, links, or information.
 
 **project** (link or null)
 - Link to parent project: `[[Project Name]]`
-- Can link to PRD: `[[projects/prds/yourproject]]`
+- Can link to PRD: `[[projects/prds/minerva]]`
 - Or null if standalone task
 
 **due_date** (date or null)

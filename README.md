@@ -1,8 +1,8 @@
 # Life OS
 
-**Version:** 1.0.0
+**Version:** 1.1.0
 **Status:** Active
-**Last Updated:** 2025-10-19
+**Last Updated:** 2025-10-25
 
 ---
 
@@ -51,17 +51,11 @@ This is not a productivity system. This is infrastructure for building a life wo
    - Install: Settings → Community plugins → Browse → Search "Templater"
    - Configuration: Set template folder to `templates/`
 
-3. **Database** ⭐ *Highly Recommended*
-   - Spreadsheet-style views for databases
-   - Native table interface with sorting and filtering
-   - Install: Settings → Community plugins → Browse → Search "Database Folder"
-   - Note: Works alongside Dataview, not a replacement
-
-4. **Calendar** (Optional but useful)
+3. **Calendar** (Optional but useful)
    - Visual calendar for daily notes and reviews
    - Makes navigation easier
 
-5. **Buttons** (Optional)
+4. **Buttons** (Optional)
    - Quick action buttons for creating files
    - Used on The Atlas dashboard
 
@@ -136,10 +130,16 @@ LifeOS/
     │       ├── healer.md
     │       └── professor.md
     ├── context/               # Agent configuration files
-    │   ├── preferences.md
-    │   ├── career.md
-    │   ├── wealth.md
-    │   └── art.md
+    │   ├── preferences.md         # Core identity and values
+    │   ├── career.md              # Career strategy and history
+    │   ├── wealth.md              # Financial strategy and portfolio
+    │   ├── art.md                 # Art practice and skill tracking
+    │   ├── content.md             # Content strategy and writing goals
+    │   ├── health.md              # Health goals and wellness tracking
+    │   ├── social.md              # Relationship strategy and social health
+    │   ├── queue.md               # Current priorities and focus areas
+    │   ├── interview-star-stories.md  # Career highlights and STAR stories
+    │   └── conversations/         # Agent conversation archives
     ├── scripts/               # Automation (Python, bash)
     ├── apps/                  # Applications
     └── schemas/               # Dataview schema documentation
@@ -240,15 +240,15 @@ Life OS uses 14 specialized agents organized into Strategic Council, Execution D
 
 ### Project Management
 - **All projects**: [`projects/INDEX.md`](projects/INDEX.md)
-- **Kanban board**: [`kanban/BOARD.md`](kanban/BOARD.md)
-- **WIP limit**: Maximum 3 items in progress
+- **Ideas pipeline**: [`projects/ideas/`](projects/ideas/)
+- **PRDs**: [`projects/prds/`](projects/prds/)
 - **Priority system**: Primary (40-50%), Secondary (25-30%), Maintenance (20-25%)
 
 ### Weekly Review
 1. Run weekly Cabinet meeting (see [`CLAUDE.md`](CLAUDE.md))
 2. Update project status in [`projects/INDEX.md`](projects/INDEX.md)
-3. Process kanban board
-4. Invoke Cabinet meeting (optional)
+3. Review completed tasks and update priorities
+4. Reflect on energy, focus, wins, and learnings
 
 ### Agent Invocation
 **Example:** "Engineer, should I use Next.js or Astro for my blog?"
@@ -336,21 +336,16 @@ This is not practice. Every battle counts. Stay sharp, stay focused, stay intent
 
 ### 2. Set Up Projects
 - Review [`projects/INDEX.md`](projects/INDEX.md)
-- Use [`projects/TEMPLATE.md`](projects/TEMPLATE.md) for new projects
+- Use templates in `templates/` directory for new projects, ideas, tasks
 - Prioritize: Primary (1), Secondary (1), Maintenance (2-3)
 
-### 3. Configure Kanban
-- Open [`kanban/BOARD.md`](kanban/BOARD.md)
-- Set WIP limit (recommend: 3 items max)
-- Create your first cards
+### 3. Daily Practice
+- Generate morning brief using morning-brief skill
+- Review priorities on The Atlas dashboard
+- Capture quick thoughts in `_inbox_.md`
+- Process inbox during evening review
 
-### 4. Daily Practice
-- Follow morning routine (see [`CLAUDE.md`](CLAUDE.md))
-- Review priorities
-- Update progress
-- Use daily template in [`daily/TEMPLATE.md`](daily/TEMPLATE.md)
-
-### 5. Invoke The Cabinet
+### 4. Invoke The Cabinet
 - Read [`.system/agents/`](.system/agents/) directory
 - Learn each agent's domain and principles
 - Start invoking agents for specialized guidance
@@ -365,9 +360,9 @@ Claude Code CLI has full context awareness when working with this repository.
 - [`CLAUDE.md`](CLAUDE.md) - Complete system instructions
 
 **Example interactions:**
-- "What should I focus on today?" → Synthesizes calendar, projects, kanban
+- "What should I focus on today?" → Synthesizes calendar, projects, priorities
 - "Strategist, should I take this opportunity?" → Invokes Strategist agent
-- "Generate morning brief" → Creates daily brief in `daily/briefs/`
+- "Generate morning brief" → Creates daily brief in `reflections/daily/`
 - "Status on YourProject?" → Reads project file, provides update
 
 **Claude will:**
@@ -388,9 +383,9 @@ Claude Code CLI has full context awareness when working with this repository.
 
 **Recommended Obsidian Plugins:**
 - Dataview - Query and display data
-- Calendar - Daily notes navigation
 - Templater - Advanced templates
-- Kanban - Visual task management
+- Calendar - Daily notes navigation
+- Buttons - Quick action buttons
 - Homepage - Set custom home dashboard
 
 **Automation:**
@@ -426,7 +421,7 @@ This is a personal system, but the architecture and principles are designed to b
 2. Customize [`.system/context/preferences.md`](.system/context/preferences.md) with your profile
 3. Update agent personas to match your values
 4. Adjust time allocation and goals
-5. Remove references to Kevin's specific context
+5. Remove references to User's specific context
 6. Make it yours
 
 ---
