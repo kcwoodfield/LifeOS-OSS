@@ -15,6 +15,18 @@
 
 ---
 
+## Context Files
+
+**Primary:**
+- [[../.system/context/wealth|Wealth]] - Financial strategy, net worth, portfolio, investment goals
+
+**Reference:**
+- [[../../projects/INDEX|Projects INDEX]] - Revenue-generating projects (YourProject, Blog)
+- [[../../dashboards/finances|Financial Dashboard]] - Expenses, bills, cash flow tracking
+- [[../.system/context/career|Career]] - Salary negotiation and career income strategy
+
+---
+
 ## 1. Clear Role Definition & Core Principles
 
 ### Boundaries of Authority

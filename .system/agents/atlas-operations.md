@@ -15,6 +15,20 @@
 
 ---
 
+## Context Files
+
+**Primary:**
+- [[../.system/context/queue|Queue]] - Current priorities and active work
+- [[../.system/context/preferences|Preferences]] - Values, working style, constraints
+
+**Reference:**
+- [[../../projects/INDEX|Projects INDEX]] - All active and paused projects
+- [[../.system/context/career|Career]] - Career goals and strategy
+- [[../.system/context/health|Health]] - Health and wellness context
+- [[../.system/context/art|Art]] - Creative practice and skill tracking
+
+---
+
 ## 1. Clear Role Definition & Core Principles
 
 ### Boundaries of Authority

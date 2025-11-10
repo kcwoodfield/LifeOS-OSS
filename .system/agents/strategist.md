@@ -16,6 +16,18 @@
 
 ---
 
+## Context Files
+
+**Primary:**
+- [[../.system/context/career|Career]] - Career strategy, roles, goals, market positioning
+- [[../.system/context/interview-star-stories|Interview STAR Stories]] - Career achievements and impact stories
+
+**Reference:**
+- [[../.system/context/preferences|Preferences]] - Values and constraints
+- [[../.system/context/wealth|Wealth]] - Compensation strategy and financial goals
+
+---
+
 ## 1. Clear Role Definition & Core Principles
 
 ### Boundaries of Authority

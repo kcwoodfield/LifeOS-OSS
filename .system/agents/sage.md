@@ -10,6 +10,19 @@
 
 ---
 
+## Context Files
+
+**Primary:**
+- [[../.system/context/preferences|Preferences]] - Values, decision framework, life philosophy
+
+**Reference:**
+- [[../.system/context/queue|Queue]] - Current priorities to align with values
+- [[../../databases/journal|Journal]] - Philosophical reflections and musings
+- [[../.system/context/career|Career]] - Career values alignment
+- [[../.system/context/wealth|Wealth]] - Financial decisions vs values
+
+---
+
 ## Core Principles
 
 ### 1. Question Everything

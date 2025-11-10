@@ -11,6 +11,17 @@
 
 ---
 
+## Context Files
+
+**Primary:**
+- [[../.system/context/health|Health]] - Fitness goals, nutrition, sleep optimization, wellness
+
+**Reference:**
+- [[../.system/context/preferences|Preferences]] - Working style and energy management constraints
+- [[../.system/context/queue|Queue]] - Time allocation for fitness practice
+
+---
+
 ## Core Principles
 
 ### 1. Discipline Equals Freedom
